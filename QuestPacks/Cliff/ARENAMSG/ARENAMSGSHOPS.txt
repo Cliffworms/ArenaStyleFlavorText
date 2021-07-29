@@ -1,0 +1,1159 @@
+Quest: ARENAMSGSHOPS
+DisplayName: Arena Messages - Shops
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>            
+
+RefuseQuest:  [1001]
+<ce>            
+
+AcceptQuest:  [1002]
+<ce>            
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce>            
+
+-TEMPERATE
+--WINTER (1010)
+----SUNNY
+Message: 1010
+<ce>You enter %cbd, happy
+<ce>to be out of the cold and bright
+<ce>winter's day. Many items of
+<ce>interest are displayed on the
+<ce>shelves in the main room...
+<--->
+<ce>%cbd is as bright
+<ce>as the winter day outside and much
+<ce>warmer. Several wares and
+<ce>equipment look interesting to you...
+<--->
+<ce>You walk into %cbd,
+<ce>rubbing your numb hands together.
+<ce>At least it is sunny outside. Many
+<ce>new wares and supplies impress you
+<ce>enough for a closer look...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1011
+<ce>You enter %cbd. Outside
+<ce>the sun is hidden behind a thick
+<ce>gray layer of clouds, dropping
+<ce>the temperature and making your
+<ce>body steam in the warmth of the
+<ce>shopkeeper's hearth. Many items
+<ce>of are displayed on shelves in
+<ce>the main room...
+<--->
+<ce>You are quickly given a cup of
+<ce>hot cider as you enter
+<ce>%cbd, which you
+<ce>accept gratefully, happy to be
+<ce>inside on such a gloomy winter's
+<ce>day. You look over the wares and
+<ce>other merchandise proudly
+<ce>displayed on shelves around the
+<ce>shopkeeper.
+<--->
+<ce>The dog days of winter are
+<ce>certainly here. You enter
+<ce>%cbd, hoping for
+<ce>a deal or two on a couple
+<ce>essential wares. Several things
+<ce>immediately attract your
+<ce>attention as you look over the
+<ce>shelves and the assortments
+<ce>around the shopkeeper....
+
+----SNOW
+Message: 1013
+<ce>You enter %cbd, stamping
+<ce>your feet to warm them and shaking
+<ce>the frozen snow from your shoulders.
+<ce>Many items of interest are displayed
+<ce>on shelves around the shopkeeper...
+<--->
+<ce>A warm fire in %cbd
+<ce>thaws your frozen body and the snow
+<ce>on your shoulders and head quickly
+<ce>melts. You notice several supplies
+<ce>on the shelves that just might be
+<ce>useful...
+<--->
+<ce>You let a spray of snow and wind
+<ce>into %cbd as you
+<ce>enter. Still, with the exception of
+<ce>the puddle by the door, the chamber
+<ce>is neat and tidy. The shelves are
+<ce>fully stocked with all varieties of
+<ce>wares...
+
+
+--SPRING (1020)
+----SUNNY
+Message: 1020
+<ce>You enter %cbd
+<ce>and bring with you a cool spring
+<ce>breeze that ruffles many of the
+<ce>items of interest displayed on
+<ce>the shelves around the
+<ce>shopkeeper...
+<--->
+<ce>It is a beautiful spring day
+<ce>outside, and the mood of the
+<ce>shopkeeper in %cbd
+<ce>is bright. Perhaps you can get a
+<ce>good deal off him on a couple of
+<ce>items that impress you...
+<--->
+<ce>An open window in %cbd
+<ce>brings in the smell of spring
+<ce>flowers as you look over your
+<ce>money to see what you can afford.
+<ce>There are several displayed items
+<ce>that might prove useful...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1021
+<ce>You enter %cbd, hoping that
+<ce>the sun will show itself again. There
+<ce>are many items of interest displayed
+<ce>on the shelves around the
+<ce>shopkeeper...
+<--->
+<ce>There is a window open in
+<ce>%cbd: the shopkeeper
+<ce>is apparently hoping for some fresh
+<ce>scents of spring to brighten a gray
+<ce>day. Several wares and supplies on
+<ce>display might be helpful to you...
+<--->
+<ce>It is a cold and overcast day, and
+<ce>you doubt that the shopkeeper in
+<ce>%cbd is in the
+<ce>mood to barter. You check your
+<ce>money supply as you browse through
+<ce>the store's wares...
+
+----RAIN
+Message: 1022
+<ce>You enter %cbd,
+<ce>happy to be out of the cool
+<ce>spring shower. Many items of
+<ce>interest are displayed on the
+<ce>shelves around the
+<ce>shopkeeper...
+<--->
+<ce>It looks like a new shipment of
+<ce>supplies arrived in
+<ce>%cbd at the same
+<ce>time the rain picked up outside.
+<ce>You notice several items of
+<ce>interest...
+<--->
+<ce>You wipe the cool spring rain
+<ce>from your shoulders and head
+<ce>as you enter %cbd.
+<ce>Most of the items within are
+<ce>meant more for the townsmen
+<ce>than you, but you do see some
+<ce>adventuring equipment...
+
+
+--SUMMER (1030)
+----SUNNY
+Message: 1030
+<ce>You enter %cbd,
+<ce>happy to be out of the summer
+<ce>heat. Many items of interest
+<ce>are displayed on the shelves
+<ce>around the shopkeeper...
+<--->
+<ce>The interior of %cbd
+<ce>is neat and well organized. You
+<ce>wipe the sweat from your brow
+<ce>and look over the various wares
+<ce>and supplies...
+<--->
+<ce>It is a relief to enter
+<ce>%cbd, out of
+<ce>the infernal summer sunshine.
+<ce>Various supplies are carefully
+<ce>arranged throughout the store
+<ce>for your browsing convenience...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1031
+<ce>You walk into %cbd.
+<ce>Many items of interest are
+<ce>displayed on the shelves around
+<ce>the shopkeeper...
+<--->
+<ce>%cbd is a refuge
+<ce>from the steamy summer day. On
+<ce>the shelves are supplies and
+<ce>wares for sale...
+<--->
+<ce>You enter %cbd from
+<ce>the overcast summer day. You
+<ce>browse over the items displayed
+<ce>throughout the store and are
+<ce>impressed by the variety...
+
+----RAIN
+Message: 1032
+<ce>You enter %cbd, happy
+<ce>to be out of the summer rain. The
+<ce>cool shade causes shivers to run
+<ce>over your damp body. Many items
+<ce>of interest sit on display shelves
+<ce>around the shopkeeper...
+<--->
+<ce>The interior of %cbd
+<ce>is spotlessly clean and neat. You
+<ce>feel almost embarrassed to be
+<ce>dripping puddles of warm rain water
+<ce>water all over as you glance over
+<ce>the wares displayed on the
+<ce>shelves...
+<--->
+<ce>Wiping the warm water from the
+<ce>summer shower off your head,
+<ce>you enter %cbd.
+<ce>A display case of the more
+<ce>popular supplies is featured
+<ce>in the small room.
+
+
+--FALL (1040)
+----SUNNY
+Message: 1040
+<ce>As you enter %cbd, golden
+<ce>glints from the fall sun reflect off
+<ce>of the many items of interest
+<ce>scattered about...
+<--->
+<ce>You enter %cbd from
+<ce>the sunny autumn day. Display
+<ce>shelves of this store's speciality
+<ce>are featured next to some of the
+<ce>more peaceful supplies and gear...
+<--->
+<ce>The pleasant autumn weather has
+<ce>given %cbd an air of
+<ce>joviality. You browse through cases
+<ce>and displays of various supplies...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1041
+<ce>You enter %cbd rubbing
+<ce>your hands together to warm them from
+<ce>the chill. Many items of interest sit
+<ce>on display shelves around the
+<ce>shope keeper...
+<--->
+<ce>It is a miserable autumn day outside,
+<ce>and it is good to get inside
+<ce>%cbd. You glance over the new
+<ce>shipments of supplies and wares.
+<--->
+<ce>It is a bit early in the year for this
+<ce>sort of chilling weather, but new
+<ce>supplies arrived at %cbd
+<ce>with the cold. You find a few useful
+<ce>items immediately...
+
+----RAIN
+Message: 1042
+<ce>You enter %cbd, happy
+<ce>to be out of the cold shower. As you
+<ce>dry off you notice the many items of
+<ce>interest that sit on the display
+<ce>shelves around the shop...
+<--->
+<ce>You are handed a towel as you come
+<ce>into %cbd from the
+<ce>autumn thunderstorm. There is a new
+<ce>shipment of wares and supplies, and
+<ce>you notice several pieces worth
+<ce>looking at...
+<--->
+<ce>You are dripping with cold rain water
+<ce>as you enter %cbd. It
+<ce>is a neat and clean chamber with a
+<ce>wide assortment of supplies and
+<ce>wares from this shop's speciality...
+
+
+
+
+-DESERT (1100)
+--WINTER (1110)
+----SUNNY
+Message: 1110
+<ce>You enter %cbd, happy
+<ce>to be out of the chilly and bright
+<ce>day. Many items of interest are
+<ce>displayed on the shelves in the
+<ce>main room...
+<--->
+<ce>%cbd is as bright
+<ce>as the day outside and much warmer.
+<ce>Several wares and equipment look
+<ce>interesting to you...
+<--->
+<ce>You walk into %cbd.
+<ce>At least it is sunny outside. Many
+<ce>new wares and supplies impress you
+<ce>enough for a closer look...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1111
+<ce>You enter %cbd, hoping that
+<ce>the sun will show itself again. There
+<ce>are many items of interest displayed
+<ce>on the shelves around the
+<ce>shopkeeper...
+<--->
+<ce>The pleasant weather has given
+<ce>%cbd an air of joviality.
+<ce>You browse through cases and
+<ce>and displays of various supplies...
+<--->
+<ce>It is a cold and overcast day, and
+<ce>you doubt that the shopkeeper in
+<ce>%cbd is in the
+<ce>mood to barter. You check your
+<ce>money supply as you browse through
+<ce>the store's wares...
+
+----RAIN
+Message: 1112
+<ce>You enter %cbd, happy
+<ce>to be out of the chill shower. As you
+<ce>dry off you notice the many items of
+<ce>interest that sit on the display
+<ce>shelves around the shop...
+<--->
+<ce>You are handed a towel as you come
+<ce>into %cbd from the
+<ce>thunderstorm. There is a new
+<ce>shipment of wares and supplies, and
+<ce>you notice several pieces worth
+<ce>looking at...
+<--->
+<ce>You are dripping with cold rain water
+<ce>as you enter %cbd. It
+<ce>is a neat and clean chamber with a
+<ce>wide assortment of supplies and
+<ce>wares from this shop's speciality...
+
+----SNOW
+Message: 1113
+<ce>You enter %cbd, stamping
+<ce>your feet to warm them and shaking
+<ce>the frozen snow from your shoulders.
+<ce>Many items of interest are displayed
+<ce>on shelves around the shopkeeper...
+<--->
+<ce>A warm fire in %cbd
+<ce>thaws your frozen body and the snow
+<ce>on your shoulders and head quickly
+<ce>melts. You notice several supplies
+<ce>on the shelves that just might be
+<ce>useful...
+<--->
+<ce>You let a spray of snow and wind
+<ce>into %cbd as you
+<ce>enter. Still, with the exception of
+<ce>the puddle by the door, the chamber
+<ce>is neat and tidy. The shelves are
+<ce>fully stocked with all varieties of
+<ce>wares...
+
+
+--SPRING (1120)
+----SUNNY
+Message: 1120
+<ce>You enter %cbd
+<ce>and bring with you a cool spring
+<ce>breeze that ruffles many of the
+<ce>items of interest displayed on
+<ce>the shelves around the
+<ce>shopkeeper...
+<--->
+<ce>It is a beautiful spring day
+<ce>outside, and the mood of the
+<ce>shopkeeper in %cbd
+<ce>is bright. Perhaps you can get a
+<ce>good deal off him on a couple of
+<ce>items that impress you...
+<--->
+<ce>An open window in %cbd
+<ce>brings in the smell of spring
+<ce>flowers as you look over your
+<ce>money to see what you can afford.
+<ce>There are several displayed items
+<ce>that might prove useful...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1121
+<ce>You enter %cbd, hoping that
+<ce>the sun will show itself again. There
+<ce>are many items of interest displayed
+<ce>on the shelves around the
+<ce>shopkeeper...
+<--->
+<ce>There is a window open in
+<ce>%cbd: the shopkeeper
+<ce>is apparently hoping for some fresh
+<ce>scents of spring to brighten a gray
+<ce>day. Several wares and supplies on
+<ce>display might be helpful to you...
+<--->
+<ce>It is a cold and overcast day, and
+<ce>you doubt that the shopkeeper in
+<ce>%cbd is in the
+<ce>mood to barter. You check your
+<ce>money supply as you browse through
+<ce>the store's wares...
+
+----RAIN
+Message: 1122
+<ce>You enter %cbd,
+<ce>happy to be out of the warm
+<ce>spring shower. Many items of
+<ce>interest are displayed on the
+<ce>shelves around the
+<ce>shopkeeper...
+<--->
+<ce>It looks like a new shipment of
+<ce>supplies arrived in
+<ce>%cbd at the same
+<ce>time the rain picked up outside.
+<ce>You notice several items of
+<ce>interest...
+<--->
+<ce>You wipe the refreshing spring rain
+<ce>from your shoulders and head as you
+<ce>enter %cbd. Most
+<ce>of the items within are meant more
+<ce>for the townsmen than you, but you
+<ce>do see some adventuring equipment...
+
+
+
+--SUMMER (1130)
+----SUNNY
+Message: 1130
+<ce>You enter %cbd,
+<ce>happy to be out of the summer
+<ce>heat. Many items of interest
+<ce>are displayed on the shelves
+<ce>around the shopkeeper...
+<--->
+<ce>The interior of %cbd
+<ce>is neat and well organized. You
+<ce>wipe the sweat from your brow
+<ce>and look over the various wares
+<ce>and supplies...
+<--->
+<ce>It is a relief to enter
+<ce>%cbd, out of
+<ce>the infernal summer sunshine.
+<ce>Various supplies are carefully
+<ce>arranged throughout the store
+<ce>for your browsing convenience...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1131
+<ce>You walk into %cbd.
+<ce>Many items of interest are
+<ce>displayed on the shelves around
+<ce>the shopkeeper...
+<--->
+<ce>%cbd is a refuge
+<ce>from the steamy summer day. On
+<ce>the shelves are supplies and
+<ce>wares for sale...
+<--->
+<ce>You enter %cbd from
+<ce>the overcast summer day. You
+<ce>browse over the items displayed
+<ce>throughout the store and are
+<ce>impressed by the variety...
+
+----RAIN
+Message: 1132
+<ce>You enter %cbd, happy
+<ce>to be out of the summer rain. The
+<ce>cool shade causes shivers to run
+<ce>over your damp body. Many items
+<ce>of interest sit on display shelves
+<ce>around the shopkeeper...
+<--->
+<ce>The interior of %cbd
+<ce>is spotlessly clean and neat. You
+<ce>feel almost embarrassed to be
+<ce>dripping puddles of warm rain water
+<ce>water all over as you glance over
+<ce>the wares displayed on the
+<ce>shelves...
+<--->
+<ce>Wiping the warm water from the
+<ce>summer shower off your head,
+<ce>you enter %cbd.
+<ce>A display case of the more
+<ce>popular supplies is featured
+<ce>in the small room.
+
+
+--FALL (1140)
+----SUNNY
+Message: 1140
+<ce>As you enter %cbd, golden
+<ce>glints from the fall sun reflect off
+<ce>of the many items of interest
+<ce>scattered about...
+<--->
+<ce>You enter %cbd from
+<ce>the sunny autumn day. Display
+<ce>shelves of this store's speciality
+<ce>are featured next to some of the
+<ce>more peaceful supplies and gear...
+<--->
+<ce>The warm autumn weather has
+<ce>given %cbd an air of
+<ce>joviality. You browse through cases
+<ce>and displays of various supplies...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1141
+<ce>You enter %cbd. 
+<ce>Many items of interest sit
+<ce>on display shelves around the
+<ce>shopkeeper...
+<--->
+<ce>It is a miserable autumn day outside,
+<ce>and it is good to get inside
+<ce>%cbd. You glance over the new
+<ce>shipments of supplies and wares.
+<--->
+<ce>It is a bit early in the year for this
+<ce>sort of slightly colder weather, but
+<ce>new supplies arrived at
+<ce>%cbd with the chill. You find a few
+<ce>useful items immediately...
+
+----RAIN
+Message: 1142
+<ce>You enter %cbd, happy
+<ce>to be out of the warm shower. As you
+<ce>dry off you notice the many items of
+<ce>interest that sit on the display
+<ce>shelves around the shop...
+<--->
+<ce>You are handed a towel as you come
+<ce>into %cbd from the
+<ce>autumn thunderstorm. There is a new
+<ce>shipment of wares and supplies, and
+<ce>you notice several pieces worth
+<ce>looking at...
+<--->
+<ce>You are dripping with warm rain water
+<ce>as you enter %cbd. It
+<ce>is a neat and clean chamber with a
+<ce>wide assortment of supplies and
+<ce>wares from this shop's speciality...
+
+
+
+-COLD (1200)***
+--WINTER (1210)*
+----SUNNY*
+Message: 1210
+<ce>You enter %cbd, happy
+<ce>to be out of the cold and bright
+<ce>winter's day. Many items of
+<ce>interest are displayed on the
+<ce>shelves in the main room...
+<--->
+<ce>%cbd is as bright
+<ce>as the winter day outside and much
+<ce>colder. Several wares and
+<ce>equipment look interesting to you...
+<--->
+<ce>You walk into %cbd,
+<ce>rubbing your numb hands together.
+<ce>At least it is sunny outside. Many
+<ce>new wares and supplies impress you
+<ce>enough for a closer look...
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1211
+<ce>You enter %cbd. Outside
+<ce>the sun is hidden behind a thick
+<ce>gray layer of clouds, dropping
+<ce>the temperature and making your
+<ce>body steam in the warmth of the
+<ce>shopkeeper's hearth. Many items
+<ce>of are displayed on shelves in
+<ce>the main room...
+<--->
+<ce>You are quickly given a cup of
+<ce>warm cider as you enter
+<ce>%cbd, which you
+<ce>accept gratefully, happy to be
+<ce>inside on such a gloomy winter's
+<ce>day. You look over the wares and
+<ce>other merchandise proudly
+<ce>displayed on shelves around the
+<ce>shopkeeper.
+<--->
+<ce>The dog days of winter are
+<ce>certainly here. You enter
+<ce>%cbd, hoping for
+<ce>a deal or two on a couple
+<ce>essential wares. Several things
+<ce>immediately attract your
+<ce>attention as you look over the
+<ce>shelves and the assortments
+<ce>around the shopkeeper....
+
+----SNOW*
+Message: 1213
+<ce>You enter %cbd, stamping
+<ce>your feet to warm them and shaking
+<ce>the frozen snow from your shoulders.
+<ce>Many items of interest are displayed
+<ce>on shelves around the shopkeeper...
+<--->
+<ce>A warm fire in %cbd
+<ce>thaws your frozen body and the snow
+<ce>on your shoulders and head quickly
+<ce>melts. You notice several supplies
+<ce>on the shelves that just might be
+<ce>useful...
+<--->
+<ce>You let a spray of snow and wind
+<ce>into %cbd as you
+<ce>enter. Still, with the exception of
+<ce>the puddle by the door, the chamber
+<ce>is neat and tidy. The shelves are
+<ce>fully stocked with all varieties of
+<ce>wares...
+
+
+--SPRING (1220)*
+----SUNNY*
+Message: 1220
+<ce>You enter %cbd
+<ce>and bring with you a chill spring
+<ce>breeze that ruffles many of the
+<ce>items of interest displayed on
+<ce>the shelves around the
+<ce>shopkeeper...
+<--->
+<ce>It is a beautiful spring day
+<ce>outside, and the mood of the
+<ce>shopkeeper in %cbd
+<ce>is bright. Perhaps you can get a
+<ce>good deal off him on a couple of
+<ce>items that impress you...
+<--->
+<ce>An open window in %cbd
+<ce>brings in the smell of spring
+<ce>flowers as you look over your
+<ce>money to see what you can afford.
+<ce>There are several displayed items
+<ce>that might prove useful...
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1221
+<ce>You enter %cbd, hoping that
+<ce>the sun will show itself again. There
+<ce>are many items of interest displayed
+<ce>on the shelves around the
+<ce>shopkeeper...
+<--->
+<ce>There is a window open in
+<ce>%cbd: the shopkeeper
+<ce>is apparently hoping for some fresh
+<ce>scents of spring air to brighten a gray
+<ce>day. Several wares and supplies on
+<ce>display might be helpful to you...
+<--->
+<ce>It is a cold and overcast day, and
+<ce>you doubt that the shopkeeper in
+<ce>%cbd is in the
+<ce>mood to barter. You check your
+<ce>money supply as you browse through
+<ce>the store's wares...
+
+----RAIN*
+Message: 1222
+<ce>You enter %cbd,
+<ce>happy to be out of the cold
+<ce>spring shower. Many items of
+<ce>interest are displayed on the
+<ce>shelves around the
+<ce>shopkeeper...
+<--->
+<ce>It looks like a new shipment of
+<ce>supplies arrived in
+<ce>%cbd at the same
+<ce>time the rain picked up outside.
+<ce>You notice several items of
+<ce>interest...
+<--->
+<ce>You wipe the cool spring rain
+<ce>from your shoulders and head
+<ce>as you enter %cbd.
+<ce>Most of the items within are
+<ce>meant more for the townsmen
+<ce>than you, but you do see some
+<ce>adventuring equipment...
+
+
+--SUMMER (1230)*
+----SUNNY*
+Message: 1230
+<ce>You enter %cbd,
+<ce>happy to be out of the summer
+<ce>glare. Many items of interest
+<ce>are displayed on the shelves
+<ce>around the shopkeeper...
+<--->
+<ce>The interior of %cbd
+<ce>is neat and well organized. You
+<ce>wipe the sweat from your brow
+<ce>and look over the various wares
+<ce>and supplies...
+<--->
+<ce>It is a relief to enter
+<ce>%cbd, out of
+<ce>the chill wind and blinding
+<ce>summer sunshine. Various
+<ce>supplies are carefully
+<ce>arranged throughout the store
+<ce>for your browsing convenience...
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1231
+<ce>You walk into %cbd.
+<ce>Many items of interest are
+<ce>displayed on the shelves around
+<ce>the shopkeeper...
+<--->
+<ce>%cbd is a refuge
+<ce>from the windy summer day. On
+<ce>the shelves are supplies and
+<ce>wares for sale...
+<--->
+<ce>You enter %cbd from
+<ce>the overcast summer day. You
+<ce>browse over the items displayed
+<ce>throughout the store and are
+<ce>impressed by the variety...
+
+----RAIN*
+Message: 1232
+<ce>You enter %cbd, happy
+<ce>to be out of the summer rain. The
+<ce>cool shade causes shivers to run
+<ce>over your damp body. Many items
+<ce>of interest sit on display shelves
+<ce>around the shopkeeper...
+<--->
+<ce>The interior of %cbd
+<ce>is spotlessly clean and neat. You
+<ce>feel almost embarrassed to be
+<ce>dripping puddles of cold rain water
+<ce>water all over as you glance over
+<ce>the wares displayed on the
+<ce>shelves...
+<--->
+<ce>Wiping the cold water from the
+<ce>summer shower off your head,
+<ce>you enter %cbd.
+<ce>A display case of the more
+<ce>popular supplies is featured
+<ce>in the small room.
+
+
+
+--FALL (1240)*
+----SUNNY*
+Message: 1240
+<ce>As you enter %cbd, golden
+<ce>glints from the fall sun reflect off
+<ce>of the many items of interest
+<ce>scattered about...
+<--->
+<ce>You enter %cbd from
+<ce>the sunny autumn day. Display
+<ce>shelves of this store's speciality
+<ce>are featured next to some of the
+<ce>more peaceful supplies and gear...
+<--->
+<ce>The strangely pleasant autumn weather has
+<ce>given %cbd an air of
+<ce>joviality. You browse through cases and
+<ce>displays of various supplies...
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1241
+<ce>You enter %cbd rubbing
+<ce>your hands together to warm them from
+<ce>the chill. Many items of interest sit
+<ce>on display shelves around the
+<ce>shopkeeper...
+<--->
+<ce>It is a miserable autumn day outside,
+<ce>and it is good to get inside
+<ce>%cbd. You glance over the new
+<ce>shipments of supplies and wares.
+<--->
+<ce>It is a bit strange this time of
+<ce>year to get warmer weather, but
+<ce>new supplies arrived at
+<ce>%cbd with the cold. You find a
+<ce>few useful items immediately...
+
+----RAIN*
+Message: 1242
+<ce>You enter %cbd, happy
+<ce>to be out of the cold shower. As you
+<ce>dry off you notice the many items of
+<ce>interest that sit on the display
+<ce>shelves around the shop...
+<--->
+<ce>You are handed a towel as you come
+<ce>into %cbd from the
+<ce>autumn thunderstorm. There is a new
+<ce>shipment of wares and supplies, and
+<ce>you notice several pieces worth
+<ce>looking at...
+<--->
+<ce>You are dripping with cold rain water
+<ce>as you enter %cbd. It
+<ce>is a neat and clean chamber with a
+<ce>wide assortment of supplies and
+<ce>wares from this shop's speciality...
+
+
+QBN:
+--Item _letter1_ letter used 1010
+--Item _letter2_ letter used 1011
+--Item _letter4_ letter used 1013
+--Item _letter6_ letter used 1020
+--Item _letter7_ letter used 1021
+--Item _letter8_ letter used 1022
+--Item _letter11_ letter used 1030
+--Item _letter12_ letter used 1031
+--Item _letter13_ letter used 1032
+--Item _letter16_ letter used 1040
+--Item _letter17_ letter used 1041
+--Item _letter18_ letter used 1042
+
+
+--	Quest start-up
+    pc at any shop do _inside_
+    --get item _letter1_
+    --get item _letter2_
+    --get item _letter4_
+    --get item _letter6_
+    --get item _letter7_
+    --get item _letter8_
+    --get item _letter11_
+    --get item _letter12_
+    --get item _letter13_
+    --get item _letter16_
+    --get item _letter17_
+    --get item _letter18_
+
+variable _inside_
+
+--Seasons Detect
+_winter_ task:
+    season winter
+
+_spring_ task:
+    season spring
+
+_summer_ task:
+    season summer
+
+_fall_ task:
+    season fall
+
+--Weather Detect
+_sunny_ task:
+    weather sunny
+
+_overcast_ task:
+    weather overcast
+
+_cloudy_ task:
+    weather cloudy
+
+_fog_ task:
+    weather fog
+
+_clouds_ task:
+    when _overcast_ or _cloudy_ or _fog_
+
+_rain_ task:
+    weather rain
+
+_thunder_ task:
+    weather thunder
+
+_snow_ task:
+    weather snow
+
+_rainy_ task:
+    when _rain_ or _thunder_
+
+--Climate Detect
+_desert_ task:
+    climate base desert
+
+_swamp_ task:
+    climate base swamp
+
+_hot_ task:
+    when _desert_ or _swamp_
+
+_mountain_ task:
+    climate base mountain
+
+_temperate_ task:
+    climate base temperate
+
+--Time of day Detect
+_day_ task:
+    daily from 06:00 to 18:00
+
+-TEMPERATE
+--WINTER TASKS
+---day/sunny
+_shopmidwsud_ task:
+    when _inside_ and _winter_ and _day_ and _temperate_ and _sunny_
+    say 1010
+
+---day/overcast
+_shopmidwod_ task:
+    when _inside_ and _winter_ and _day_ and _temperate_ and _clouds_
+    say 1011
+
+---day/snow
+_shopmidwsd_ task:
+    when _inside_ and _winter_ and _day_ and _temperate_ and _snow_
+    say 1013
+
+
+--SPRING TASKS
+---day/sunny
+_shopmidspsud_ task:
+    when _inside_ and _spring_ and _day_ and _temperate_ and _sunny_
+    say 1020
+
+---day/overcast
+_shopmidspod_ task:
+    when _inside_ and _spring_ and _day_ and _temperate_ and _clouds_
+    say 1021
+
+---day/rain
+_shopmidsprd_ task:
+    when _inside_ and _spring_ and _day_ and _temperate_ and _rainy_
+    say 1022
+
+
+--SUMMER TASKS
+---day/sunny
+_shopmidsusud_ task:
+    when _inside_ and _summer_ and _day_ and _temperate_ and _sunny_
+    say 1030
+
+---day/overcast
+_shopmidsuod_ task:
+    when _inside_ and _summer_ and _day_ and _temperate_ and _clouds_
+    say 1031
+
+---day/rain
+_shopmidsurd_ task:
+    when _inside_ and _summer_ and _day_ and _temperate_ and _rainy_
+    say 1032
+
+
+--FALL TASKS
+---day/sunny
+_shopmidfsud_ task:
+    when _inside_ and _fall_ and _day_ and _temperate_ and _sunny_
+    say 1040
+
+---day/overcast
+_shopmidfod_ task:
+    when _inside_ and _fall_ and _day_ and _temperate_ and _clouds_
+    say 1041
+
+---day/rain
+_shopmidfrd_ task:
+    when _inside_ and _fall_ and _day_ and _temperate_ and _rainy_
+    say 1042
+--=================
+
+-HOT
+--WINTER TASKS
+---day/sunny
+_shophotwsud_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _sunny_
+    say 1110
+
+---day/overcast
+_shophotwod_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _clouds_
+    say 1111
+
+---day/rain
+_shophotwrd_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _rainy_
+    say 1112
+
+---day/snow
+_shophotwsd_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _snow_
+    say 1113
+
+
+--SPRING TASKS
+---day/sunny
+_shophotspsud_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _sunny_
+    say 1120
+
+---day/overcast
+_shophotspod_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _clouds_
+    say 1121
+
+---day/rain
+_shophotsprd_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _rainy_
+    say 1122
+
+
+--SUMMER TASKS
+---day/sunny
+_shophotsusud_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _sunny_
+    say 1130
+
+---day/overcast
+_shophotsuod_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _clouds_
+    say 1131
+
+---day/rain
+_shophotsurd_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _rainy_
+    say 1132
+
+
+--FALL TASKS
+---day/sunny
+_shophotfsud_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _sunny_
+    say 1140
+
+---day/overcast
+_shophotfod_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _clouds_
+    say 1141
+
+---day/rain
+_shophotfrd_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _rainy_
+    say 1142
+--=================
+
+-COLD
+--WINTER TASKS
+---day/sunny
+_shopcoldwsud_ task:
+    when _inside_ and _winter_ and _day_ and _mountain_ and _sunny_
+    say 1210
+
+---day/overcast
+_shopcoldwod_ task:
+    when _inside_ and _winter_ and _day_ and _mountain_ and _clouds_
+    say 1211
+
+---day/snow
+_shopcoldwsd_ task:
+    when _inside_ and _winter_ and _day_ and _mountain_ and _snow_
+    say 1213
+
+
+--SPRING TASKS
+---day/sunny
+_shopcoldspsud_ task:
+    when _inside_ and _spring_ and _day_ and _mountain_ and _sunny_
+    say 1220
+
+---day/overcast
+_shopcoldspod_ task:
+    when _inside_ and _spring_ and _day_ and _mountain_ and _clouds_
+    say 1221
+
+---day/rain
+_shopcoldsprd_ task:
+    when _inside_ and _spring_ and _day_ and _mountain_ and _rainy_
+    say 1222
+
+
+--SUMMER TASKS
+---day/sunny
+_shopcoldsusud_ task:
+    when _inside_ and _summer_ and _day_ and _mountain_ and _sunny_
+    say 1230
+
+---day/overcast
+_shopcoldsuod_ task:
+    when _inside_ and _summer_ and _day_ and _mountain_ and _clouds_
+    say 1231
+
+---day/rain
+_shopcoldsurd_ task:
+    when _inside_ and _summer_ and _day_ and _mountain_ and _rainy_
+    say 1232
+
+
+--FALL TASKS
+---day/sunny
+_shopcoldfsud_ task:
+    when _inside_ and _fall_ and _day_ and _mountain_ and _sunny_
+    say 1240
+
+---day/overcast
+_shopcoldfod_ task:
+    when _inside_ and _fall_ and _day_ and _mountain_ and _clouds_
+    say 1241
+
+---day/rain
+_shopcoldfrd_ task:
+    when _inside_ and _fall_ and _day_ and _mountain_ and _rainy_
+    say 1242
+--================= 
+
+
+_resetshop_ task:
+    when not _inside_
+    start quest ARENAMSGMAIN
+    end quest

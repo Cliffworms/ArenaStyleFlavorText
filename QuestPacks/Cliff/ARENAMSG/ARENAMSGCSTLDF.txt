@@ -1,0 +1,441 @@
+Quest: ARENAMSGCSTLDF
+DisplayName: Arena Messages - Castle Daggerfall
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                            
+
+RefuseQuest:  [1001]
+<ce>                            
+
+AcceptQuest:  [1002]
+<ce>                            
+
+QuestFail:  [1003]
+<ce>                            
+
+QuestComplete:  [1004]
+<ce>                            
+
+
+
+-TEMPERATE
+--WINTER (1010)
+----SUNNY
+Message: 1010
+<ce>                You walk into %rn's audience chamber, noticing
+<ce>                the many fine trappings and warm furs that decorate
+<ce>                the area. Even though the sun outside is strong,
+<ce>                winter's hand has chilled you to the bone. You find
+<ce>                that you welcome the brightly lit and warm interior.
+<ce>                Ahead of you waits %rn, %rt of %cn...
+<--->
+<ce>                You enter the audience chamber of %rn of
+<ce>                %cn, your lips chapped from the cold
+<ce>                and your flesh scorched by the sun. Representatives
+<ce>                from Sentinel, who were meeting with the %rt,
+<ce>                leave the room as you enter. It appears things have
+<ce>                not gone well, for the Council of Elders and the
+<ce>                %rt seem to be in a sour mood...
+<--->
+<ce>                You enter the audience chamber of %rn of
+<ce>                %cn, your lips chapped from the cold
+<ce>                and your flesh scorched by the sun. Representatives
+<ce>                from Wayrest, who were meeting with the %rt,
+<ce>                leave the room as you enter. It appears things have
+<ce>                gone well, for the Council of Elders and the
+<ce>                %rt seem to be in a good mood...
+<--->
+<ce>                %rn's audience chamber is alive with excitement.
+<ce>                %cn and representatives of ___city_,
+<ce>                its neighbor to the %di, are at business talks.
+<ce>                Naturally, this has caused a lot of the internal
+<ce>                stress within %cn. The %rt is remarkably calm,
+<ce>                hearing each of the citizen's concerns about trade
+<ce>                and commerce...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1011
+<ce>                You walk into %rn's audience chamber, noticing
+<ce>                the many fine trappings and warm furs that decorate
+<ce>                the area. The freezing temperature and iron gray
+<ce>                clouds outside have made everything frozen and dull,
+<ce>                though you find that the interior of this chamber is
+<ce>                brightly lit and cheerful. Ahead of you waits %rn,
+<ce>                %rt of %cn...
+<--->
+<ce>                Frozen to the core, you stumble into the audience
+<ce>                chamber of %rn, %rt of %cn, only to feel a chill
+<ce>                that pierces your soul. The room itself is
+<ce>                physically warm and pleasing to the eye, but you
+<ce>                sense an undercurrent of tension...
+<--->
+<ce>                You are admitted into the presence of the good %rt
+<ce>                of %cn, %rn. A thick cloak of wolf hide is
+<ce>                gently wrapped around your shoulders, and as feeling
+<ce>                returns to your skin, you feel that parts of your
+<ce>                face were dangerously close to frostbite...
+
+----SNOW
+Message: 1013
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                many fine trappings and warm furs that decorate the area.
+<ce>                You feel your frozen limbs begin to thaw in the warm heat
+<ce>                of the brightly lit interior. You welcome the brief
+<ce>                respite from the cold. Ahead of you waits the %rt
+<ce>                of %cn...
+<--->
+<ce>                The audience chamber of %rn is drier than the snowy
+<ce>                streets of %cn, but not any warmer. You
+<ce>                rub your hands together and watch your breath
+<ce>                come like smoke from a chimney...
+<--->
+<ce>                Your eyes, squinting from the glare of the snow outside,
+<ce>                grow accustomed to the gloom of %rn's audience chamber.
+
+
+--SPRING (1020)
+----SUNNY
+Message: 1020
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                many fine trappings and expensive furniture that
+<ce>                decorate the area. The warm spring air wafts through an
+<ce>                open window, bringing along with it the scent of newly
+<ce>                budding flowers and fresh green grass.
+<--->
+<ce>                It is hard to believe that anyone can think of politics
+<ce>                on such a day, but people are lining up to be heard by
+<ce>                the %rt of %cn while outside newly bloomed
+<ce>                flowers perfume the air...
+<--->
+<ce>                Inside the audience chamber of the %rt of %cn,
+<ce>                the new sprouts of spring die young and the perfume of
+<ce>                the fresh blossom turns to a sickly stench. %rn is
+<ce>                rumored to have angered the city oracle who placed upon
+<ce>                him a curse of poor health. The political change has
+<ce>                been very noticeable in such a city where tradition is
+<ce>                of highest importance...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1021
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                many fine trappings and expensive furniture that
+<ce>                decorate the area. The day has been overcast, iron gray
+<ce>                clouds that hint of a spring storm. You find yourself
+<ce>                welcoming the sun's return. Ahead of you waits the %rt
+<ce>                of %cn.
+<--->
+<ce>                The government of %cn is like the weather outside,
+<ce>                pleasantly temperate but dark with clouds threatening
+<ce>                catastrophe. In %rn's audience chamber no one even whispers
+<ce>                their theories about the ulterior motives behind the region's
+<ce>                recent deal with its neighbor, Shalgora.
+<--->
+<ce>                You like the looks of %rn's audience chamber the moment you
+<ce>                enter. Beautiful music rings through the room and the walls
+<ce>                hang with rich tapestries of spring scenes much nicer than
+<ce>                the gray day outside...
+
+----RAIN
+Message: 1022
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                many fine trappings and expensive furniture that
+<ce>                decorate the area. The warm spring shower has left you
+<ce>                pleasantly refreshed, if a bit wet, but a breeze seems
+<ce>                to be blowing through here and you feel yourself dry
+<ce>                quickly...
+<--->
+<ce>                For an agriculture-based city like %cn,
+<ce>                a good spring rain makes all the difference during the
+<ce>                seeding. Everyone seems in a good mood, and the
+<ce>                preparations for the traditional new year celebrations
+<ce>                is the conversation on all lips...
+<--->
+<ce>                Through an open window in %rn's audience chamber, you can
+<ce>                smell the spring rain and newly blossomed flowers out
+<ce>                in the streets of %cn. The floor is wet with the tread
+<ce>                of many visitors...
+
+
+--SUMMER (1030)
+----SUNNY
+Message: 1030
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                fine trappings and furniture that decorate the area. A
+<ce>                cool breeze wafts through the area, drying the sweat
+<ce>                from your body and bringing a welcomed sigh to your lips.
+<ce>                You relish in the brief respite. Ahead of you waits the
+<ce>                %rt of %cn.
+<--->
+<ce>                Outside the sun batters relentlessly on the citizens of
+<ce>                %cn, but in %rn's audience chamber, the
+<ce>                shadows are deliverance. The rewards of power and wealth
+<ce>                decorate the room. Obviously, trading with the his
+<ce>                neighbors has been profitable for the %rt of
+<ce>                %cn. Perhaps you too can benefit from this situation...
+<--->
+<ce>                You enter %rn's audience chamber. Despite the
+<ce>                season, not a warm ray of sunshine has touched this room.
+<ce>                You breath in the musty air and wipe the sweat from your
+<ce>                brow as you wait for the %rt to finish business with
+<ce>                some messengers from Glenpoint. The behavior between
+<ce>                the %rt and the messengers is peculiar, considering the
+<ce>                two have been at peace for some time...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1031
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                fine trappings and furniture that decorate the area.
+<ce>                Even though the clouds outside have made everything seem
+<ce>                dull and gray, you find that the interior is brightly
+<ce>                lit and cheerful. Ahead of you waits the %rt of %cn.
+<--->
+<ce>                You enter the audience chamber, finding the city elders
+<ce>                in conference with their %rt. The mood in the room
+<ce>                reflects the weather outside; hot and dark with rain
+<ce>                clouds. The elders continue to whisper nervously one to
+<ce>                the other.
+<--->
+<ce>                The audience chamber of %rn is alive with activity.
+<ce>                The %rt and an elder discuss a discontented local group
+<ce>                who wish %cn to stop trading with Tulune.
+<ce>                He next turns his attention to a merchant whose shop is
+<ce>                under suspicion of housing a Thieves' Guild's hideout...
+
+----RAIN
+Message: 1032
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                fine trappings and furniture that decorate the area.
+<ce>                Outside you can still hear the raindrops as they fall,
+<ce>                soaking everything in sight and creating a humid haze
+<ce>                which causes your clothes to cling to you like a second
+<ce>                skin. Ahead of you waits the %rt of %cn.
+<--->
+<ce>                You enter the audience chamber, wiping the warm water of
+<ce>                the summer rain off of your face. At the center of the
+<ce>                opulently decorated room, the %rt is speaking with the
+<ce>                city councilmen of %cn. You overhear them mention
+<ce>                __city_, their neighbor to the %di.
+<--->
+<ce>                Like an unwanted dog, the steam from the hot summer
+<ce>                drizzle has followed you to the audience chamber of
+<ce>                %rn. They whisper, but you think you hear
+<ce>                one of the counselors remind the %rt that they
+<ce>                have a trade deal with Ilessan Hills, the region's
+<ce>                neighbor to the north.
+
+
+--FALL (1040)
+----SUNNY
+Message: 1040
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                many fine trappings and furniture that decorate the
+<ce>                area. Outside the golden fall sun lends its warmth,
+<ce>                holding back winter's hand for a few moments more. Ahead
+<ce>                of you waits the %rt of %cn.
+<--->
+<ce>                It is the busiest season of the year in %cn, and
+<ce>                the palace's audience chamber is filled with area farmers
+<ce>                discussing their harvests with their %rt. Many linger
+<ce>                in the room after their business is through,
+<ce>                procrastinating the return to the burning field work.
+<ce>                They seem to be talking mostly about %reg being
+<ce>                suddenly at peace with its nearest neighbor, and how this
+<ce>                will change the trade throughout the region.
+<--->
+<ce>                It is unusually warm for the autumn in %cn,
+<ce>                but %rn's audience chamber reflects little of the
+<ce>                sunshine outside...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1041
+<ce>                You walk into %rn's audience chamber, noticing the
+<ce>                many fine trappings and furs that decorate the area.
+<ce>                Even though autumn's clouds outside have made
+<ce>                everything seem cold and gray, you find that the
+<ce>                interior is brightly lit and warm. Ahead of you waits
+<ce>                the %rt of %cn.
+<--->
+<ce>                You enter the audience chamber, shaking the chill of the
+<ce>                gray autumn day from your skin. Being currently trade
+<ce>                partners with its neighbor on the other side of the Iliac
+<ce>                Bay, Sentinel, the leading citizens of %cn
+<ce>                have met to discuss the resultant implications with their
+<ce>                %rt...
+<--->
+<ce>                As you enter the audience chamber of the %rt of %cn,
+<ce>                you feel the autumn chill from the outside is actually
+<ce>                intensified within. The thick furs and darkly beautiful
+<ce>                ornaments that decorate the walls make you feel as if
+<ce>                you're being watched. The %rt looks up from the
+<ce>                conference he is having with the Council of Elders...
+
+----RAIN
+Message: 1042
+<ce>                You walk into %rn's audience chamber shaking the
+<ce>                cold rain from your shoulders. The first thing you
+<ce>                notice is the many fine trappings and furniture that
+<ce>                decorate the area. The warm air serves to quickly dry
+<ce>                you from the fall shower outside. Ahead of you waits
+<ce>                the %rt of %cn...
+<--->
+<ce>                You had hoped that the chamber of the %rt of %cn
+<ce>                would provide relief from the cold autumn rain outside,
+<ce>                but it is as damp and chilly as a mausoleum. Others
+<ce>                seeking audience wait with dripping hair and chattering
+<ce>                teeth, as the %rt talks with a representative from
+<ce>                Anticlere, the region's neighbor to the east that
+<ce>                %cn is trading with...
+<--->
+<ce>                It has been an uncomfortably warm autumn in the city
+<ce>                of %cn, so the recent shower has actually improved
+<ce>                the mood in the audience chamber of its %rt. You
+<ce>                know that Shalgora, %cn's temperamental neighbor,
+<ce>                has only recently signed a trade deal with %cn,
+<ce>                but foreign diplomacy is not being discussed among
+<ce>                the %rt and the circle of counselors.
+
+
+QBN:
+Place _city_ remote city
+Place _cstldf_ permanent DaggerfallCastle
+
+--Item _letter1_ letter used 1010
+--Item _letter2_ letter used 1011
+--Item _letter4_ letter used 1013
+--Item _letter6_ letter used 1020
+--Item _letter7_ letter used 1021
+--Item _letter8_ letter used 1022
+--Item _letter11_ letter used 1030
+--Item _letter12_ letter used 1031
+--Item _letter13_ letter used 1032
+--Item _letter16_ letter used 1040
+--Item _letter17_ letter used 1041
+--Item _letter18_ letter used 1042
+
+
+--	Quest start-up
+    pc at _cstldf_ do _inside_
+    --get item _letter1_
+    --get item _letter2_
+    --get item _letter4_
+    --get item _letter6_
+    --get item _letter7_
+    --get item _letter8_
+    --get item _letter11_
+    --get item _letter12_
+    --get item _letter13_
+    --get item _letter16_
+    --get item _letter17_
+    --get item _letter18_
+
+variable _inside_
+
+--Seasons Detect
+_winter_ task:
+    season winter
+
+_spring_ task:
+    season spring
+
+_summer_ task:
+    season summer
+
+_fall_ task:
+    season fall
+
+--Weather Detect
+_sunny_ task:
+    weather sunny
+
+_overcast_ task:
+    weather overcast
+
+_rain_ task:
+    weather rain
+
+_thunder_ task:
+    weather thunder
+
+_rainy_ task:
+    when _rain_ or _thunder_
+
+_snow_ task:
+    weather snow
+
+--Time of day Detect
+_day_ task:
+    daily from 09:00 to 16:00
+
+-TEMPERATE
+--WINTER TASKS
+---day/sunny
+_cstlmidwsud_ task:
+    when _inside_ and _winter_ and _day_ and _sunny_
+    say 1010
+
+---day/overcast
+_cstlmidwod_ task:
+    when _inside_ and _winter_ and _day_ and _overcast_
+    say 1011
+
+---day/snow
+_cstlmidwsd_ task:
+    when _inside_ and _winter_ and _day_ and and _snow_
+    say 1013
+
+--SPRING TASKS
+---day/sunny
+_cstlmidspsud_ task:
+    when _inside_ and _spring_ and _day_ and _sunny_
+    say 1020
+
+---day/overcast
+_cstlmidspod_ task:
+    when _inside_ and _spring_ and _day_ and _overcast_
+    say 1021
+
+---day/rain
+_cstlmidsprd_ task:
+    when _inside_ and _spring_ and _day_ and _rainy_
+    say 1022
+
+
+--SUMMER TASKS
+---day/sunny
+_cstlmidsusud_ task:
+    when _inside_ and _summer_ and _day_ and _sunny_
+    say 1030
+
+---day/overcast
+_cstlmidsuod_ task:
+    when _inside_ and _summer_ and _day_ and _overcast_
+    say 1031
+
+---day/rain
+_cstlmidsurd_ task:
+    when _inside_ and _summer_ and _day_ and _rainy_
+    say 1032
+
+
+--FALL TASKS
+---day/sunny
+_cstlmidfsud_ task:
+    when _inside_ and _fall_ and _day_ and _sunny_
+    say 1040
+
+---day/overcast
+_cstlmidfod_ task:
+    when _inside_ and _fall_ and _day_ and _overcast_
+    say 1041
+
+---day/rain
+_cstlmidfrd_ task:
+    when _inside_ and _fall_ and _day_ and _rainy_
+    say 1042
+
+_resetcstl_ task:
+    when not _inside_
+    start quest ARENAMSGMAIN
+    end quest

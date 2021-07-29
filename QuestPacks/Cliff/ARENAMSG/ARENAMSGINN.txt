@@ -1,0 +1,1392 @@
+Quest: ARENAMSGINN
+DisplayName: Arena Messages - Inns
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>            
+
+RefuseQuest:  [1001]
+<ce>            
+
+AcceptQuest:  [1002]
+<ce>            
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce>            
+
+-TEMPERATE
+--WINTER (1010)
+----SUNNY
+Message: 1010
+<ce>You enter %cbd,
+<ce>feeling the hearth fire slowly
+<ce>chasing away the chill that has
+<ce>crept into your bones from this
+<ce>winter's day...
+<--->
+<ce>It is a pleasant day for winter,
+<ce>and the red-cheeked townspeople
+<ce>in %cbd drink their mulled wine
+<ce>to a toast for a long hibernation...
+<--->
+<ce>The winter sunlight shining
+<ce>through %cbd windows
+<ce>does as much as the roaring
+<ce>fireplace to warm your
+<ce>chilled body...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1011
+<ce>The bright colors of the
+<ce>interior of %cbd
+<ce>add life to the otherwise
+<ce>gray day...
+<--->
+<ce>You enter %cbd
+<ce>and your frozen senses revive
+<ce>to the smell of fresh baked
+<ce>bread and the sound of the
+<ce>patrons laughing with the
+<ce>serving wench...
+<--->
+<ce>The serving wench is passing
+<ce>other patrons mugs of hot
+<ce>mulled wine as you enter
+<ce>%cbd from the cold,
+<ce>cloudy day...
+
+----SNOW
+Message: 1013
+<ce>You close the door on the snow
+<ce>and rub your hands together,
+<ce>warming them. Ahead of you the
+<ce>innkeeper of %cbd hails
+<ce>you welcome, holding a steaming
+<ce>mug of mulled wine...
+<--->
+<ce>Great billows of wind and snow
+<ce>follow you into %cbd
+<ce>like a white shadow. The floor
+<ce>is wet with the footprints of
+<ce>the patrons...
+<--->
+<ce>Mulled wine is the featured drink
+<ce>today in %cbd.
+<ce>You shake the snow from your
+<ce>shoulders and head, and think
+<ce>that nothing could sound better...
+
+----NIGHT
+Message: 1014
+<ce>You enter %cbd, out of
+<ce>the cold winter night, making your
+<ce>way closer to the fire...
+<--->
+<ce>%cbd seems to be the
+<ce>last bastion of warmth and light
+<ce>against the arctic darkness
+<ce>outside...
+<--->
+<ce>Rubbing your hands briskly
+<ce>together, you enter
+<ce>%cbd. The fireplace
+<ce>is so grand in the room, in
+<ce>short time you feel almost
+<ce>too warm...
+
+
+--SPRING (1020)
+----SUNNY
+Message: 1020
+<ce>A cool breeze follows you into %cbd,
+<ce>bringing with it the smell of newly bloomed flowers
+<ce>and fresh cut grass...
+<--->
+<ce>Through the open door and windows, all the smells
+<ce>of spring come into %cbd and
+<ce>the stuffiness of the winter months fly out...
+<--->
+<ce>You walk into %cbd, immediately
+<ce>wishing you were again out in the sunny spring
+<ce>day...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1021
+<ce>%cbd's colorful interior
+<ce>adds life to the otherwise gray spring
+<ce>day...
+<--->
+<ce>Despite the rather cloudy conditions
+<ce>outside, the atmosphere inside
+<ce>%cbd is extremely lively.
+<ce>Someone could even get hurt...
+<--->
+<ce>You leave the overcast spring day and
+<ce>enter %cbd. The smell
+<ce>of simple baked breads coming from
+<ce>the kitchen seems like an invitation
+<ce>to stay.
+
+----RAIN
+Message: 1022
+<ce>You enter %cbd and wipe
+<ce>your rain soaked head on a small towel
+<ce>offered by the serving wench. Outside
+<ce>the spring shower continues...
+<--->
+<ce>You are dripping wet as you enter
+<ce>%cbd, but then again, so
+<ce>are most of the rest of the patrons.
+<ce>The barwench is busily passing out
+<ce>towels as well as drinks...
+<--->
+<ce>You can still hear the spring tempest
+<ce>outside, beating against the walls of
+<ce>%cbd. One of the maids stands
+<ce>by the door, attempting to mop up a
+<ce>persistent leak...
+
+----NIGHT
+Message: 1024
+<ce>You enter %cbd, searching
+<ce>for a clear table at which you can
+<ce>relax on this warm spring night...
+<--->
+<ce>%cbd is like a
+<ce>beacon in the cool spring night,
+<ce>full of torch light, clinking
+<ce>glasses, and the aromas of the
+<ce>kitchen...
+<--->
+<ce>It is a cool spring night
+<ce>outside, but you have no need
+<ce>to seek out the fireplace on
+<ce>entering %cbd.
+<ce>The tobacco smoke and smell of
+<ce>new bread trickles out the
+<ce>open windows and into the night...
+
+
+--SUMMER (1030)
+----SUNNY
+Message: 1030
+<ce>Cool shade and cooler drinks
+<ce>greet you as you make your way
+<ce>out of the heat and into
+<ce>%cbd, smiling at
+<ce>the serving wench who holds a
+<ce>mug of ale ready for the first
+<ce>thirsty patron...
+<--->
+<ce>It is a relief to move inside
+<ce>%cbd, away from
+<ce>the burning summer heat, and
+<ce>you feel that a cold mug of
+<ce>grog might be in order...
+<--->
+<ce>You enter %cbd,
+<ce>feeling the cool shadows fall
+<ce>over your face like a blanket...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1031
+<ce>Although the sun isn't shining,
+<ce>the humidity has plastered your
+<ce>clothes to your back like a
+<ce>second skin. As you close the
+<ce>door to %cbd
+<ce>your eyessearch for a cool dark
+<ce>corner in which to rest...
+<--->
+<ce>It is uncomfortably hot and
+<ce>sticky in %cbd,
+<ce>almost as bad as the cloudy
+<ce>summer day outside...
+<--->
+<ce>You walk into %cbd
+<ce>from the hot, cloudy day,
+<ce>welcomed by the other patrons
+<ce>sequestered away from the
+<ce>elements...
+
+----RAIN
+Message: 1032
+<ce>You shake the rain from your shoulders
+<ce>and enter %cbd,
+<ce>hoping for a place where you can at
+<ce>last rest and dry out...
+<--->
+<ce>A burst of the warm summer rain follows
+<ce>you into %cbd,
+<ce>and you follow the many paths of muddy
+<ce>footprints to the bar...
+<--->
+<ce>Dripping from the summer tempest outside,
+<ce>you enter %cbd,
+<ce>relieved to have found shelter...
+
+----NIGHT
+Message: 1034
+<ce>You are greeted by warm laughter
+<ce>and merry talk as you enter
+<ce>%cbd. Torches around
+<ce>the tavern shed light on this warm
+<ce>summer night...
+<--->
+<ce>The heat and humidity of the day
+<ce>have disappeared, and it has
+<ce>turned out to be a pleasantly
+<ce>cool night. The torches on the
+<ce>walls of %cbd
+<ce>light up many a sunburned face...
+<--->
+<ce>The summer night is almost as warm
+<ce>as the day had been, and you enter
+<ce>%cbd craving
+<ce>something cold and wet...
+
+
+--FALL (1040)
+----SUNNY
+Message: 1040
+<ce>You enter %cbd, heartened
+<ce>by the smells of food and spices,
+<ce>and prepare to relax in the warm
+<ce>sunlight...
+<--->
+<ce>The fiery autumn sun disappears
+<ce>as you enter %cbd.
+<ce>The sounds of laughter, clinking
+<ce>glasses, and banging cooking pans
+<ce>meet your ears...
+<--->
+<ce>The townsmen have met in
+<ce>%cbd to celebrate a good
+<ce>fall harvest. Their exuberance is
+<ce>infectious. Oh great, you say to
+<ce>yourself, I'll probably have this
+<ce>stupid drinking song in my head
+<ce>all day...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1041
+<ce>The tavern you enter is brightly
+<ce>lit and colorful, compared to the
+<ce>cold, dark clouds that hang in
+<ce>the sky...
+<--->
+<ce>You walk out of the cloudy autumn
+<ce>day into %cbd,
+<ce>the smell of baking bread pulling
+<ce>on you like a lure...
+<--->
+<ce>On an overcast autumn day like
+<ce>today, %cbd is very
+<ce>popular and you can see why. It
+<ce>certainly lifts the spirits...
+
+----RAIN
+Message: 1042
+<ce>You enter %cbd
+<ce>and shake the chill rain from
+<ce>your shoulders, hoping for a
+<ce>fire of some sort to dry
+<ce>yourself...
+<--->
+<ce>Cold wind and rain follow you
+<ce>into %cbd like
+<ce>a beggar. You wipe your wet
+<ce>shoulders and head as you head
+<ce>for the fireplace...
+<--->
+<ce>Shivering from the cold autumn
+<ce>tempest, you escape into
+<ce>%cbd. Other miserably
+<ce>wet people have gathered in
+<ce>dripping groups...
+
+----NIGHT
+Message: 1044
+<ce>You enter %cbd, rubbing the
+<ce>chill night air from your bones. The
+<ce>tavern is full of people bustling
+<ce>here and there...
+<--->
+<ce>On this cool autumn night,
+<ce>%cbd seems especially
+<ce>inviting. You smell apples baking
+<ce>in the kitchen and look forward
+<ce>to your first draught of ale...
+<--->
+<ce>The warm smells of tobacco smoke
+<ce>and simple foods draw you into
+<ce>%cbd from the
+<ce>cold autumn night...
+
+
+-HOT (1100
+--WINTER (1110)
+----SUNNY
+Message: 1110
+<ce>You enter %cbd,
+<ce>feeling rather confortable on
+<ce>this cool day...
+<--->
+<ce>It is a pleasant day,
+<ce>and the townspeople in
+<ce>%cbd drink their
+<ce>wine to a toast for a spring as
+<ce>pleasant as today...
+<--->
+<ce>The sunlight shining through
+<ce>%cbd windows
+<ce>does as much as the roaring
+<ce>fireplace to warm your
+<ce>slightly chilled body...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1111
+<ce>The bright colors of the
+<ce>interior of %cbd
+<ce>add life to the otherwise
+<ce>gray day...
+<--->
+<ce>You enter %cbd
+<ce>to the smell of fresh baked
+<ce>bread and the sound of the
+<ce>patrons laughing with the
+<ce>serving wench...
+<--->
+<ce>The serving wench is passing
+<ce>other patrons mugs of cold
+<ce>ale as you enter
+<ce>%cbd from the cloudy
+<ce>day...
+
+----RAIN
+Message: 1112
+<ce>You enter %cbd and shake
+<ce>the rain from your shoulders,
+<ce>hoping for a fire of some sort to
+<ce>dry yourself.
+<--->
+<ce>Winds and rain follow you into
+<ce>%cbd like a beggar.
+<ce>You wipe your wet shoulders and
+<ce>head as you head for the fireplace.
+<--->
+<ce>Slightly shivering from the tempest,
+<ce>you escape into %cbd.
+<ce>Other miserably wet people have
+<ce>gathered in dripping groups.
+
+----SNOW
+Message: 1113
+<ce>You close the door on the snow
+<ce>and rub your hands together,
+<ce>warming them. Ahead of you the
+<ce>innkeeper of %cbd hails
+<ce>you welcome, holding a steaming
+<ce>mug of mulled wine...
+<--->
+<ce>Great billows of wind and snow
+<ce>follow you into %cbd
+<ce>like a white shadow. The floor
+<ce>is wet with the footprints of
+<ce>the patrons...
+<--->
+<ce>Mulled wine is the featured drink
+<ce>today in %cbd.
+<ce>You shake the snow from your
+<ce>shoulders and head, and think
+<ce>that nothing could sound better...
+
+----NIGHT*
+Message: 1114
+<ce>You enter %cbd, out of
+<ce>the cold desert night, making your
+<ce>way closer to the fire...
+<--->
+<ce>%cbd seems to be the
+<ce>last bastion of warmth and light
+<ce>against the desertic darkness
+<ce>outside...
+<--->
+<ce>Rubbing your hands briskly
+<ce>together, you enter
+<ce>%cbd. The fireplace
+<ce>is so grand in the room, in
+<ce>short time you feel almost
+<ce>too warm...
+
+
+--SPRING (1120)
+----SUNNY
+Message: 1120
+<ce>A cool breeze follows you into %cbd,
+<ce>bringing with it the smell of newly bloomed flowers
+<ce>and fresh air...
+<--->
+<ce>Through the open door and windows, all the smells
+<ce>of spring come into %cbd and
+<ce>the chill of the winter months fly out...
+<--->
+<ce>You walk into %cbd, immediately
+<ce>wishing you were again out in the pleasant spring
+<ce>day...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1121
+<ce>%cbd's colorful interior
+<ce>adds life to the otherwise gray spring
+<ce>day...
+<--->
+<ce>Despite the rather cloudy conditions
+<ce>outside, the atmosphere inside
+<ce>%cbd is extremely lively.
+<ce>Someone could even get hurt...
+<--->
+<ce>You leave the overcast spring day and
+<ce>enter %cbd. The smell
+<ce>of simple baked breads coming from
+<ce>the kitchen seems like an invitation
+<ce>to stay.
+
+----RAIN
+Message: 1122
+<ce>You enter %cbd and wipe
+<ce>your rain soaked head on a small towel
+<ce>offered by the serving wench. Outside
+<ce>the rare spring shower continues...
+<--->
+<ce>You are dripping wet as you enter
+<ce>%cbd, but then again, so
+<ce>are most of the rest of the patrons.
+<ce>The barwench is busily passing out
+<ce>towels as well as drinks...
+<--->
+<ce>You can still hear the spring tempest
+<ce>outside, beating against the walls of
+<ce>%cbd. One of the maids stands
+<ce>by the door, attempting to mop up a
+<ce>persistent leak...
+
+----NIGHT*
+Message: 1124
+<ce>You enter %cbd, searching
+<ce>for a clear table at which you can
+<ce>relax on this cool spring night...
+<--->
+<ce>%cbd is like a
+<ce>beacon in the cool spring night,
+<ce>full of torch light, clinking
+<ce>glasses, and the aromas of the
+<ce>kitchen...
+<--->
+<ce>It is a cool spring night
+<ce>outside, but you have no need
+<ce>to seek out the fireplace on
+<ce>entering %cbd.
+<ce>The tobacco smoke and smell of
+<ce>new bread trickles out the
+<ce>open windows and into the night...
+
+
+--SUMMER (1130)
+----SUNNY
+Message: 1130
+<ce>Cool shade and cooler drinks
+<ce>greet you as you make your way
+<ce>out of the heat and into
+<ce>%cbd, smiling at
+<ce>the serving wench who holds a
+<ce>mug of ale ready for the first
+<ce>thirsty patron...
+<--->
+<ce>It is a relief to move inside
+<ce>%cbd, away from
+<ce>the burning summer heat, and
+<ce>you feel that a cold mug of
+<ce>grog might be in order...
+<--->
+<ce>You enter %cbd,
+<ce>feeling the cool shadows fall
+<ce>over your face like a blanket...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1131
+<ce>Although the sun isn't shining,
+<ce>the humidity has plastered your
+<ce>clothes to your back like a
+<ce>second skin. As you close the
+<ce>door to %cbd
+<ce>your eyes search for a cool dark
+<ce>corner in which to rest...
+<--->
+<ce>It is uncomfortably hot and
+<ce>sticky in %cbd,
+<ce>almost as bad as the cloudy
+<ce>summer day outside...
+<--->
+<ce>You walk into %cbd
+<ce>from the hot, cloudy day,
+<ce>welcomed by the other patrons
+<ce>sequestered away from the
+<ce>elements...
+
+----RAIN
+Message: 1132
+<ce>You shake the rain from your shoulders
+<ce>and enter %cbd,
+<ce>hoping for a place where you can at
+<ce>last rest and dry out...
+<--->
+<ce>A burst of the warm summer rain follows
+<ce>you into %cbd,
+<ce>and you follow the many paths of muddy
+<ce>footprints to the bar...
+<--->
+<ce>Dripping from the summer tempest outside,
+<ce>you enter %cbd,
+<ce>relieved to have found shelter...
+
+----NIGHT*
+Message: 1134
+<ce>You are greeted by warm laughter
+<ce>and merry talk as you enter
+<ce>%cbd. Torches around
+<ce>the tavern shed light on this cold
+<ce>summer night...
+<--->
+<ce>The heat and humidity of the day
+<ce>have disappeared, and it has
+<ce>turned out to be a rather cold
+<ce>night. The torches on the walls
+<ce>of %cbd light
+<ce>up many a sunburned face...
+<--->
+<ce>The summer night is colder as the
+<ce>day had been, and you enter
+<ce>%cbd craving
+<ce>something warm and dry...
+
+
+--FALL (1140)
+----SUNNY
+Message: 1140
+<ce>You enter %cbd, heartened
+<ce>by the smells of food and spices,
+<ce>and prepare to relax in the warm
+<ce>sunlight...
+<--->
+<ce>The fiery autumn sun disappears
+<ce>as you enter %cbd.
+<ce>The sounds of laughter, clinking
+<ce>glasses, and banging cooking pans
+<ce>meet your ears...
+<--->
+<ce>The townsmen have met in
+<ce>%cbd to celebrate a good
+<ce>fall harvest. Their exuberance is
+<ce>infectious. Oh great, you say to
+<ce>yourself, I'll probably have this
+<ce>stupid drinking song in my head
+<ce>all day...
+
+----CLOUDY/OVERCAST/FOG
+Message: 1141
+<ce>The tavern you enter is brightly
+<ce>lit and colorful, compared to the
+<ce>cold, dark clouds that hang in
+<ce>the sky...
+<--->
+<ce>You walk out of the cloudy autumn
+<ce>day into %cbd,
+<ce>the smell of baking bread pulling
+<ce>on you like a lure...
+<--->
+<ce>On an overcast autumn day like
+<ce>today, %cbd is very
+<ce>popular and you can see why. It
+<ce>certainly lifts the spirits...
+
+----RAIN
+Message: 1142
+<ce>You enter %cbd
+<ce>and shake the warm rain from
+<ce>your shoulders, hoping for a
+<ce>fire of some sort to dry
+<ce>yourself...
+<--->
+<ce>Warm winds and rain follow you
+<ce>into %cbd like
+<ce>a beggar. You wipe your wet
+<ce>shoulders and head as you head
+<ce>for the fireplace...
+<--->
+<ce>Wet from the warm autumn
+<ce>tempest, you escape into
+<ce>%cbd. Other miserably
+<ce>wet people have gathered in
+<ce>dripping groups...
+
+----NIGHT
+Message: 1144
+<ce>You enter %cbd, rubbing the
+<ce>chill night air from your bones. The
+<ce>tavern is full of people bustling
+<ce>here and there...
+<--->
+<ce>On this cold autumn night,
+<ce>%cbd seems especially
+<ce>inviting. You smell apples baking
+<ce>in the kitchen and look forward
+<ce>to your first draught of ale...
+<--->
+<ce>The warm smells of tobacco smoke
+<ce>and simple foods draw you into
+<ce>%cbd from the
+<ce>cold autumn night...
+
+
+
+-COLD (1200)***
+--WINTER (1210)*
+----SUNNY*
+Message: 1210
+<ce>You enter %cbd, feeling
+<ce>the hearth fire slowly chasing away
+<ce>the chill that has crept into your
+<ce>bones from this winter's day...
+<--->
+<ce>It is a freezing day for winter, and
+<ce>the red-cheeked townspeople in
+<ce>%cbd drink their mulled
+<ce>wine to a toast for a long
+<ce>hibernation...
+<--->
+<ce>The winter sunlight shining through
+<ce>%cbd windows
+<ce>helps little compared to the roaring
+<ce>fireplace to warm your chilled body...
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1211
+<ce>The bright colors of the
+<ce>interior of %cbd
+<ce>add life to the otherwise
+<ce>gray day...
+<--->
+<ce>You enter %cbd
+<ce>and your frozen senses revive
+<ce>to the smell of fresh baked
+<ce>bread and the sound of the
+<ce>patrons laughing with the
+<ce>serving wench...
+<--->
+<ce>The serving wench is passing
+<ce>other patrons mugs of hot
+<ce>mulled wine as you enter
+<ce>%cbd from the cold,
+<ce>cloudy day...
+
+----SNOW*
+Message: 1213
+<ce>You close the door on the snow
+<ce>and rub your hands together,
+<ce>warming them. Ahead of you the
+<ce>innkeeper of %cbd hails
+<ce>you welcome, holding a steaming
+<ce>mug of mulled wine...
+<--->
+<ce>Great billows of wind and snow
+<ce>follow you into %cbd
+<ce>like a white shadow. The floor
+<ce>is wet with the footprints of
+<ce>the patrons...
+<--->
+<ce>Mulled wine is the featured drink
+<ce>today in %cbd.
+<ce>You shake the snow from your
+<ce>shoulders and head, and think
+<ce>that nothing could sound better...
+
+----NIGHT*
+Message: 1214
+<ce>You enter %cbd, out of
+<ce>the frozen winter night, making your
+<ce>way closer to the fire...
+<--->
+<ce>%cbd seems to be the
+<ce>last bastion of warmth and light
+<ce>against the arctic darkness
+<ce>outside...
+<--->
+<ce>Rubbing your hands briskly
+<ce>together, you enter
+<ce>%cbd. The fireplace
+<ce>is so grand in the room, in
+<ce>short time you feel almost
+<ce>too warm...
+
+
+--SPRING (1220)*
+----SUNNY*
+Message: 1220
+<ce>The chill breath of spring follows you
+<ce>into %cbd, bringing
+<ce>with it the smell of bloomed flowers
+<ce>and ice fresh air...
+<--->
+<ce>Through the open door and windows, all the smells
+<ce>of spring come into %cbd and
+<ce>the freeze of the winter months fly out...
+<--->
+<ce>You walk into %cbd, immediately
+<ce>wishing you were again out in the cool spring
+<ce>day...
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1221
+<ce>%cbd's colorful interior
+<ce>adds life to the otherwise gray spring
+<ce>day...
+<--->
+<ce>Despite the rather cloudy conditions
+<ce>outside, the atmosphere inside
+<ce>%cbd is extremely lively.
+<ce>Someone could even get hurt...
+<--->
+<ce>You leave the overcast spring day and
+<ce>enter %cbd. The smell
+<ce>of simple baked breads coming from
+<ce>the kitchen seems like an invitation
+<ce>to stay.
+
+----RAIN*
+Message: 1222
+<ce>You enter %cbd and wipe
+<ce>your rain soaked head on a small towel
+<ce>offered by the serving wench. Outside
+<ce>the rare spring shower continues...
+<--->
+<ce>You are dripping wet as you enter
+<ce>%cbd, but then again, so
+<ce>are most of the rest of the patrons.
+<ce>The barwench is busily passing out
+<ce>towels as well as drinks...
+<--->
+<ce>You can still hear the cold spring tempest
+<ce>outside, beating against the walls of
+<ce>%cbd. One of the maids stands
+<ce>by the door, attempting to mop up a
+<ce>persistent leak...
+
+----NIGHT*
+Message: 1224
+<ce>You enter %cbd, searching
+<ce>for a clear table at which you can
+<ce>relax on this cool spring night...
+<--->
+<ce>%cbd is like a
+<ce>beacon in the cool spring night,
+<ce>full of torch light, clinking
+<ce>glasses, and the aromas of the
+<ce>kitchen...
+<--->
+<ce>It is a cool spring night
+<ce>outside, but you have no need
+<ce>to seek out the fireplace on
+<ce>entering %cbd.
+<ce>The tobacco smoke and smell of
+<ce>new bread trickles out the
+<ce>open windows and into the night...
+
+
+--SUMMER (1230)*
+----SUNNY*
+Message: 1230
+<ce>Warm shade and warmer drinks
+<ce>greet you as you make your way
+<ce>out of the chill and into
+<ce>%cbd, smiling at
+<ce>the serving wench who holds a
+<ce>mug of ale ready for the first
+<ce>thirsty patron...
+<--->
+<ce>It is a relief to move inside
+<ce>%cbd, away from
+<ce>the chilling summer air, and
+<ce>you feel that a cold mug of
+<ce>grog might be in order...
+<--->
+<ce>You enter %cbd,
+<ce>feeling the cool shadows fall
+<ce>over your face like a blanket...
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1231
+<ce>Although the sun isn't shining,
+<ce>the chill has frozen your
+<ce>clothes to your back like a
+<ce>second skin. As you close the
+<ce>door to %cbd
+<ce>your eyes search for a warm dark
+<ce>corner in which to rest...
+<--->
+<ce>It is uncomfortably cold and
+<ce>dry in %cbd,
+<ce>almost as bad as the chilly
+<ce>summer day outside...
+<--->
+<ce>You walk into %cbd
+<ce>from the cold, cloudy day,
+<ce>welcomed by the other patrons
+<ce>sequestered away from the
+<ce>elements...
+
+----RAIN*
+Message: 1232
+<ce>You shake the rain from your shoulders
+<ce>and enter %cbd,
+<ce>hoping for a place where you can at
+<ce>last rest and dry out...
+<--->
+<ce>A burst of the cold summer rain follows
+<ce>you into %cbd,
+<ce>and you follow the many paths of muddy
+<ce>footprints to the bar...
+<--->
+<ce>Dripping from the cold summer tempest outside,
+<ce>you enter %cbd,
+<ce>relieved to have found shelter...
+
+----NIGHT*
+Message: 1234
+<ce>You are greeted by warm laughter
+<ce>and merry talk as you enter
+<ce>%cbd. Torches around
+<ce>the tavern shed light on this cold
+<ce>summer night...
+<--->
+<ce>The wind and chill of the day
+<ce>have disappeared, and it has
+<ce>turned out to be a pleasantly
+<ce>cool night. The torches on the
+<ce>walls of %cbd
+<ce>light up many a face...
+<--->
+<ce>The summer night is colder than
+<ce>the day had been, and you enter
+<ce>%cbd craving
+<ce>something warm and dry...
+
+
+
+--FALL (1240)*
+----SUNNY*
+Message: 1240
+<ce>You enter %cbd, heartened
+<ce>by the smells of food and spices,
+<ce>and prepare to relax in the warm
+<ce>sunlight...
+<--->
+<ce>The fiery autumn sun disappears
+<ce>as you enter %cbd.
+<ce>The sounds of laughter, clinking
+<ce>glasses, and banging cooking pans
+<ce>meet your ears...
+<--->
+<ce>The townsmen have met in
+<ce>%cbd to celebrate a good
+<ce>fall harvest. Their exuberance is
+<ce>infectious. Oh great, you say to
+<ce>yourself, I'll probably have this
+<ce>stupid drinking song in my head
+<ce>all day...
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1241
+<ce>The tavern you enter is brightly
+<ce>lit and colorful, compared to the
+<ce>cold, dark clouds that hang in
+<ce>the sky...
+<--->
+<ce>You walk out of the cloudy autumn
+<ce>day into %cbd,
+<ce>the smell of baking bread pulling
+<ce>on you like a lure...
+<--->
+<ce>On an overcast autumn day like
+<ce>today, %cbd is very
+<ce>popular and you can see why. It
+<ce>certainly lifts the spirits...
+
+----RAIN*
+Message: 1242
+<ce>You enter %cbd
+<ce>and shake the cold rain from
+<ce>your shoulders, hoping for a
+<ce>fire of some sort to dry
+<ce>yourself...
+<--->
+<ce>Cold winds and rain follow you
+<ce>into %cbd like
+<ce>a beggar. You wipe your wet
+<ce>shoulders and head as you head
+<ce>for the fireplace...
+<--->
+<ce>Shivering from the freezing autumn
+<ce>tempest, you escape into
+<ce>%cbd. Other miserably
+<ce>wet people have gathered in
+<ce>dripping groups...
+
+----NIGHT*
+Message: 1244
+<ce>You enter %cbd, rubbing the
+<ce>cold night air from your bones. The
+<ce>tavern is full of people bustling
+<ce>here and there...
+<--->
+<ce>On this cold autumn night,
+<ce>%cbd seems especially
+<ce>inviting. You smell apples baking
+<ce>in the kitchen and look forward
+<ce>to your first draught of ale...
+<--->
+<ce>The warm smells of tobacco smoke
+<ce>and simple foods draw you into
+<ce>%cbd from the
+<ce>cold autumn night...
+
+
+
+QBN:
+
+--Item _letter1_ letter used 1010
+--Item _letter2_ letter used 1011
+--Item _letter4_ letter used 1013
+--Item _letter5_ letter used 1014
+--Item _letter6_ letter used 1020
+--Item _letter7_ letter used 1021
+--Item _letter8_ letter used 1022
+--Item _letter10_ letter used 1024
+--Item _letter11_ letter used 1030
+--Item _letter12_ letter used 1031
+--Item _letter13_ letter used 1032
+--Item _letter15_ letter used 1034
+--Item _letter16_ letter used 1040
+--Item _letter17_ letter used 1041
+--Item _letter18_ letter used 1042
+--Item _letter20_ letter used 1044
+
+
+--	Quest start-up
+    pc at any tavern set _inside_
+    --get item _letter1_
+    --get item _letter2_
+    --get item _letter4_
+    --get item _letter5_
+    --get item _letter6_
+    --get item _letter7_
+    --get item _letter8_
+    --get item _letter10_
+    --get item _letter11_
+    --get item _letter12_
+    --get item _letter13_
+    --get item _letter15_
+    --get item _letter16_
+    --get item _letter17_
+    --get item _letter18_
+    --get item _letter20_
+
+variable _inside_
+variable _msgshown_
+
+--Seasons Detect
+_winter_ task:
+    season winter
+
+_spring_ task:
+    season spring
+
+_summer_ task:
+    season summer
+
+_fall_ task:
+    season fall
+
+--Weather Detect
+_sunny_ task:
+    weather sunny
+
+_overcast_ task:
+    weather overcast
+
+_rain_ task:
+    weather rain
+
+_thunder_ task:
+    weather thunder
+
+_rainy_ task:
+    when _rain_ or _thunder_
+
+_snow_ task:
+    weather snow
+
+--Climate Detect
+_desert_ task:
+    climate base desert
+
+_swamp_ task:
+    climate base swamp
+
+_mountain_ task:
+    climate base mountain
+
+_temperate_ task:
+    climate base temperate
+
+_hot_ task:
+    when _desert_ or _swamp_
+
+_mid_ task:
+    when _temperate_
+
+_cold_ task:
+    when _mountain_
+
+--Time of day Detect
+_day_ task:
+    daily from 06:00 to 18:00
+
+-TEMPERATE
+--WINTER TASKS
+---day/sunny
+_innmidwsud_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _sunny_ and not _msgshown_
+    say 1010
+    setvar _msgshown_
+
+---day/overcast
+_innmidwod_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _overcast_ and not _msgshown_
+    say 1011
+    setvar _msgshown_
+
+---day/snow
+_innmidwsd_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _snow_ and not _msgshown_
+    say 1013
+    setvar _msgshown_
+
+---night
+_innmidwn_ task:
+    when _inside_ and _winter_ and _mid_ and not _day_ and not _msgshown_
+    say 1014
+    setvar _msgshown_
+
+
+--SPRING TASKS
+---day/sunny
+_innmidspsud_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _sunny_ and not _msgshown_
+    say 1020
+    setvar _msgshown_
+
+---day/overcast
+_innmidspod_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _overcast_ and not _msgshown_
+    say 1021
+    setvar _msgshown_
+
+---day/rain
+_innmidsprd_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _rainy_ and not _msgshown_
+    say 1022
+    setvar _msgshown_
+
+---night
+_innmidspn_ task:
+    when _inside_ and _spring_ and _mid_ and not _day_ and not _msgshown_
+    say 1024
+    setvar _msgshown_
+
+
+--SUMMER TASKS
+---day/sunny
+_innmidsusud_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _sunny_ and not _msgshown_
+    say 1030
+    setvar _msgshown_
+
+---day/overcast
+_innmidsuod_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _overcast_ and not _msgshown_
+    say 1031
+    setvar _msgshown_
+
+---day/rain
+_innmidsurd_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _rainy_ and not _msgshown_
+    say 1032
+    setvar _msgshown_
+
+---night
+_innmidsun_ task:
+    when _inside_ and _summer_ and _mid_ and not _day_ and not _msgshown_
+    say 1034
+    setvar _msgshown_
+
+
+--FALL TASKS
+---day/sunny
+_innmidfsud_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _sunny_ and not _msgshown_
+    say 1040
+    setvar _msgshown_
+
+---day/overcast
+_innmidfod_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _overcast_ and not _msgshown_
+    say 1041
+    setvar _msgshown_
+
+---day/rain
+_innmidfrd_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _rainy_ and not _msgshown_
+    say 1042
+    setvar _msgshown_
+
+---night
+_innmidfn_ task:
+    when _inside_ and _fall_ and _mid_ and not _day_ and not _msgshown_
+    say 1044
+    setvar _msgshown_
+--=================
+
+-HOT
+--WINTER TASKS
+---day/sunny
+_innhotwsud_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _sunny_ and not _msgshown_
+    say 1110
+    setvar _msgshown_
+
+---day/overcast
+_innhotwod_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _overcast_ and not _msgshown_
+    say 1111
+    setvar _msgshown_
+
+---day/rain
+_innhotwrd_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _rainy_ and not _msgshown_
+    say 1112
+    setvar _msgshown_
+
+---day/snow
+_innhotwsd_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _snow_ and not _msgshown_
+    say 1113
+    setvar _msgshown_
+
+---night
+_innhotwn_ task:
+    when _inside_ and _winter_ and _hot_ and not _day_ and not _msgshown_
+    say 1114
+    setvar _msgshown_
+
+
+--SPRING TASKS
+---day/sunny
+_innhotspsud_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _sunny_ and not _msgshown_
+    say 1120
+    setvar _msgshown_
+
+---day/overcast
+_innhotspod_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _overcast_ and not _msgshown_
+    say 1121
+    setvar _msgshown_
+
+---day/rain
+_innhotsprd_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _rainy_ and not _msgshown_
+    say 1122
+    setvar _msgshown_
+
+---night
+_innhotspn_ task:
+    when _inside_ and _spring_ and _hot_ and not _day_ and not _msgshown_
+    say 1124
+    setvar _msgshown_
+
+
+--SUMMER TASKS
+---day/sunny
+_innhotsusud_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _sunny_ and not _msgshown_
+    say 1130
+    setvar _msgshown_
+
+---day/overcast
+_innhotsuod_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _overcast_ and not _msgshown_
+    say 1131
+    setvar _msgshown_
+
+---day/rain
+_innhotsurd_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _rainy_ and not _msgshown_
+    say 1132
+    setvar _msgshown_
+
+---night
+_innhotsun_ task:
+    when _inside_ and _summer_ and _hot_ and not _day_ and not _msgshown_
+    say 1134
+    setvar _msgshown_
+
+
+--FALL TASKS
+---day/sunny
+_innhotfsud_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _sunny_ and not _msgshown_
+    say 1140
+    setvar _msgshown_
+
+---day/overcast
+_innhotfod_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _overcast_ and not _msgshown_
+    say 1141
+    setvar _msgshown_
+
+---day/rain
+_innhotfrd_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _rainy_ and not _msgshown_
+    say 1142
+    setvar _msgshown_
+
+---night
+_innhotfn_ task:
+    when _inside_ and _fall_ and _hot_ and not _day_ and not _msgshown_
+    say 1144
+    setvar _msgshown_
+--=================
+
+-COLD
+--WINTER TASKS
+---day/sunny
+_inncoldwsud_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _sunny_ and not _msgshown_
+    say 1210
+    setvar _msgshown_
+
+---day/overcast
+_inncoldwod_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _overcast_ and not _msgshown_
+    say 1211
+    setvar _msgshown_
+
+---day/snow
+_inncoldwsd_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _snow_ and not _msgshown_
+    say 1213
+    setvar _msgshown_
+
+---night
+_inncoldwn_ task:
+    when _inside_ and _winter_ and _cold_ and not _day_ and not _msgshown_
+    say 1214
+    setvar _msgshown_
+
+
+--SPRING TASKS
+---day/sunny
+_inncoldspsud_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _sunny_ and not _msgshown_
+    say 1220
+    setvar _msgshown_
+
+---day/overcast
+_inncoldspod_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _overcast_ and not _msgshown_
+    say 1221
+    setvar _msgshown_
+
+---day/rain
+_inncoldsprd_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _rainy_ and not _msgshown_
+    say 1222
+    setvar _msgshown_
+
+---night
+_inncoldspn_ task:
+    when _inside_ and _spring_ and _cold_ and not _day_ and not _msgshown_
+    say 1224
+    setvar _msgshown_
+
+
+--SUMMER TASKS
+---day/sunny
+_inncoldsusud_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _sunny_ and not _msgshown_
+    say 1230
+    setvar _msgshown_
+
+---day/overcast
+_inncoldsuod_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _overcast_ and not _msgshown_
+    say 1231
+    setvar _msgshown_
+
+---day/rain
+_inncoldsurd_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _rainy_ and not _msgshown_
+    say 1232
+    setvar _msgshown_
+
+---night
+_inncoldsun_ task:
+    when _inside_ and _summer_ and _cold_ and not _day_ and not _msgshown_
+    say 1234
+    setvar _msgshown_
+
+
+--FALL TASKS
+---day/sunny
+_inncoldfsud_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _sunny_ and not _msgshown_
+    say 1240
+    setvar _msgshown_
+
+---day/overcast
+_inncoldfod_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _overcast_ and not _msgshown_
+    say 1241
+    setvar _msgshown_
+
+---day/rain
+_inncoldfrd_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _rainy_ and not _msgshown_
+    say 1242
+    setvar _msgshown_
+
+---night
+_inncoldfn_ task:
+    when _inside_ and _fall_ and _cold_ and not _day_ and not _msgshown_
+    say 1244
+    setvar _msgshown_
+
+_resetinn_ task:
+    when not _inside_
+    start quest ARENAMSGMAIN
+    end quest

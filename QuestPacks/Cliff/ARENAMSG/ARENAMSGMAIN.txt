@@ -1,0 +1,70 @@
+Quest: ARENAMSGMAIN
+DisplayName: Arena Messages - Main - Detect buildings PC enters
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>            
+
+RefuseQuest:  [1001]
+<ce>            
+
+AcceptQuest:  [1002]
+<ce>            
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce>            
+
+
+QBN:
+Place _castledf_ permanent DaggerfallCastle
+Place _castleway_ permanent WayrestCastle
+Place _castlesen_ permanent SentinelCastle
+variable _msgshown_
+
+--	Quest start-up:
+pc at any temple do _entertmpl_
+pc at any palace do _enterpal_
+pc at any tavern do _enterinn_
+pc at any magery do _entermg_
+pc at any shop do _entershop_
+pc at _castledf_ do _entercstldf_
+pc at _castleway_ do _entercstlway_
+pc at _castlesen_ do _entercstlsen_
+
+
+_entertmpl_ task:
+    start quest ARENAMSGTMPL
+    end quest 
+
+_enterpal_ task:
+    start quest ARENAMSGPAL
+    end quest
+
+_enterinn_ task:
+    start quest ARENAMSGINN
+    setvar _msgshown_
+    end quest
+
+_entermg_ task:
+    start quest ARENAMSGMG
+    end quest    
+
+_entershop_ task:
+    start quest ARENAMSGSHOPS
+    end quest
+
+_entercstldf_ task:
+    start quest ARENAMSGCSTLDF
+    end quest
+
+_entercstlway_ task:
+    start quest ARENAMSGCSTLWAY
+    end quest
+
+_entercstlsen_ task:
+    start quest ARENAMSGCSTLSEN
+    end quest

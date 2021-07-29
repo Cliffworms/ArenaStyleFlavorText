@@ -1,0 +1,1067 @@
+Quest: ARENAMSGTMPL
+DisplayName: Arena Messages - Temples
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>                            
+
+RefuseQuest:  [1001]
+<ce>                            
+
+AcceptQuest:  [1002]
+<ce>                            
+
+QuestFail:  [1003]
+<ce>                            
+
+QuestComplete:  [1004]
+<ce>                            
+
+-TEMPERATE
+--WINTER (1010)
+----SUNNY
+Message: 1010
+<ce>                You enter %cbd, rubbing your hands together
+<ce>                to warm them on this bright winter's day. You can
+<ce>                hear chanting in the distance...
+<--->
+<ce>                %cbd sanctuary is as austerely beautiful
+<ce>                as the bright winter's day outside. Tendrils of
+<ce>                sweet incense rise from the floor as if in
+<ce>                greeting...
+<--->
+<ce>                On a day as cold as it is blindingly bright,
+<ce>                it is easy to see why this part of %cbd
+<ce>                is called the sanctuary. Far off to the distance,
+<ce>                you can hear the clergy at prayer.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1011
+<ce>                You enter %cbd, rubbing
+<ce>                your hands to warm them and hoping
+<ce>                that your spirits can be lifted on
+<ce>                this cold, overcast day. You can
+<ce>                hear chanting in the distance...
+<--->
+<ce>                Already you can feel the power of
+<ce>                %cbd sanctuary, thawing
+<ce>                your frigid body, brightening your
+<ce>                spirits which have grown dark as
+<ce>                the cloud filled sky...
+<--->
+<ce>                Strange sounds and smells meet you
+<ce>                as you leave the cold, cloudy
+<ce>                winter's day: the incense's
+<ce>                bittersweet aroma is new to your
+<ce>                senses and the clergy of
+<ce>                %cbd sing solemnly in
+<ce>                a language dead for many eons...
+
+----SNOW
+Message: 1013
+<ce>                You enter %cbd, shaking
+<ce>                the snow off of yourself and stamping
+<ce>                your feet to warm them. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Brushing the snow off your
+<ce>                shoulders and head, you walk
+<ce>                into %cbd sanctuary.
+<ce>                The smell of incense strikes
+<ce>                you immediately, spicy and
+<ce>                somewhat sweet...
+<--->
+<ce>                You trail some snow into
+<ce>                %cbd sanctuary as you enter.
+<ce>                The air is as cold as outside here,
+<ce>                yet filled with the smell of
+<ce>                incense and the sound of the
+<ce>                clergy praying...
+
+
+--SPRING (1020)
+----SUNNY
+Message: 1020
+<ce>                You enter %cbd and a
+<ce>                cool spring breeze follows you,
+<ce>                bringing with it the smell of fresh
+<ce>                blooms. You can hear chanting in the
+<ce>                distance...
+<--->
+<ce>                It is bright and fresh in
+<ce>                %cbd sanctuary as the spring
+<ce>                day outside. In the distance, you
+<ce>                can hear the chanting of the clergy.
+<--->
+<ce>                The smell of the new blossoms of spring
+<ce>                that came into %cbd
+<ce>                sanctuary with you mixes with the
+<ce>                slightly spicy smell of incense. You can
+<ce>                hear the clergy far away, giving a pray
+<ce>                of thanksgiving for the beauty of the
+<ce>                new year.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1021
+<ce>                You enter %cbd wishing
+<ce>                that the sun would return and make the day
+<ce>                a truly pleasant one. You can hear chanting
+<ce>                in the distance...
+<--->
+<ce>                You walk into %cbd,
+<ce>                smelling the sweet incense that rises
+<ce>                like a cloud from the sanctuary floor.
+<ce>                In the distance, you hear the clergy
+<ce>                praying for a return of the sun to
+<ce>                this dreary spring day...
+<--->
+<ce>                You enter %cbd, gray as
+<ce>                this spring day sky. Almost immediately the
+<ce>                bittersweet smell of the incense strengthens
+<ce>                your spirit. The clergy drone their prayers
+<ce>                far off in the distance.
+
+----RAIN
+Message: 1022
+<ce>                You enter %cbd, shaking
+<ce>                the warm rain off of yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Trailing puddles of warm spring rain
+<ce>                behind you, you enter %cbd
+<ce>                sanctuary. An open window lets the smell
+<ce>                of the storm in, overpowering the sweet
+<ce>                incense of %cbd itself.
+<--->
+<ce>                Wiping the warm rain from your shoulders
+<ce>                and head, you walk into
+<ce>                %cbd sanctuary. Off to
+<ce>                the distance, you can hear the clergy,
+<ce>                prayer in a sing-song for a good
+<ce>                planting season for the farmers...
+
+
+--SUMMER (1030)
+----SUNNY
+Message: 1030
+<ce>                You enter %cbd, thankful
+<ce>                for the respite from the harsh summer sun.
+<ce>                You can hear chanting in the distance...
+<--->
+<ce>                The stinging of prickly heat is instantly
+<ce>                soothed the moment you enter
+<ce>                %cbd sanctuary. In the
+<ce>                distance, you can hear the low murmur of
+<ce>                chanting. This is a place of great
+<ce>                tranquillity.
+<--->
+<ce>                The god who protects %cbd
+<ce>                must be great indeed, for it is as bright
+<ce>                as the summer day yet comfortable as a
+<ce>                shadowy place within. A pleasant floral
+<ce>                odor of incense fills the air.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1031
+<ce>                You enter %cbd, hoping that
+<ce>                your spirits can be lifted on this gray,
+<ce>                overcast day. You can hear chanting in
+<ce>                the distance...
+<--->
+<ce>                As miserable as the sweltering summer day
+<ce>                is, it is at least less eerie than the
+<ce>                sterile %cbd sanctuary.
+<ce>                No birds or insects can be heard in here,
+<ce>                and the air is empty of both smell and
+<ce>                temperature. It may be very holy indeed,
+<ce>                but you feel like you have stepped into
+<ce>                a void.
+<--->
+<ce>                %cbd sanctuary is a haven
+<ce>                for all, a place of self reflection, solitude,
+<ce>                and prayer. It is always perfectly mild in
+<ce>                here, as hot and cloudy as the day outside may
+<ce>                be...
+
+----RAIN
+Message: 1032
+<ce>                You enter %cbd, shaking
+<ce>                the rain off of yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                You enter the hallowed ground of
+<ce>                %cbd sanctuary, the sounds
+<ce>                of the summer rain shower mixing
+<ce>                with that of the chanting clergy.
+<ce>                All your tension like water
+<ce>                flows away.
+<--->
+<ce>                A fine mist, escaped from the tempest
+<ce>                outside, has flooded %cbd
+<ce>                sanctuary bringing all the smells of
+<ce>                summer with it. You recognize the
+<ce>                sing-song prayer of the clergy as a
+<ce>                plea for a bountiful fall harvest.
+
+
+--FALL (1040)
+----SUNNY
+Message: 1040
+<ce>                You enter %cbd and a
+<ce>                cool fall breeze follows you into the
+<ce>                hallowed halls. You can hear chanting
+<ce>                in the distance...
+<--->
+<ce>                The musty smell of autumn in the
+<ce>                outside air becomes mixed with
+<ce>                the spicy odor of incense as you
+<ce>                enter %cbd sanctuary...
+<--->
+<ce>                The stained glass windows in
+<ce>                %cbd sanctuary catch
+<ce>                the rays from the bright
+<ce>                autumn sun and transform them
+<ce>                into crystalline fire.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1041
+<ce>                You enter %cbd, hoping
+<ce>                that your spirits can be lifted on
+<ce>                this cold, overcast day. You can
+<ce>                hear chanting in the distance...
+<--->
+<ce>                It is a miserable autumn day, but
+<ce>                within %cbd,
+<ce>                there is faith yet that the winter
+<ce>                may not be so deadly...
+<--->
+<ce>                Cold, dark clouds hang over
+<ce>                %cbd, but within you
+<ce>                find all is bright and warm.
+<ce>                Billowing clouds of perfumed
+<ce>                incense greet the fog of
+<ce>                your breath.
+
+----RAIN
+Message: 1042
+<ce>                You enter %cbd,
+<ce>                shaking the cold rain off of
+<ce>                yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Wet from the autumn thunderstorm, you
+<ce>                enter %cbd, dripping.
+<ce>                The warm smell of incense begins to
+<ce>                invigorate you, and in the distance,
+<ce>                you can hear %cbd clergy at
+<ce>                prayer.
+<--->
+<ce>                %cbd sanctuary is
+<ce>                a place of peace. Only by concentrating
+<ce>                on the world outside yourself can you
+<ce>                hear the vague drumbeat of the autumn
+<ce>                thunderstorm outside.
+<--->
+<ce>                You enter %cbd expecting
+<ce>                the sweet smell of incense and the calming
+<ce>                chant of priests, but only find the screams
+<ce>                of the injured and the smell of death. Even
+<ce>                the home of the Divines wasn't spared of
+<ce>                the effects of war.
+
+
+-DESERT (1100)
+--WINTER (1110)
+----SUNNY
+Message: 1110
+<ce>                You enter %cbd and a
+<ce>                cool breeze follows you into the
+<ce>                hallowed halls. You can hear chanting
+<ce>                in the distance...
+<--->
+<ce>                %cbd sanctuary is as austerely beautiful
+<ce>                as the bright day outside. Tendrils of sweet incense
+<ce>                incense rise from the floor as if in greeting...
+<--->
+<ce>                On a day as cool as it is blindingly bright,
+<ce>                it is easy to see why this part of %cbd
+<ce>                is called the sanctuary. Far off to the distance,
+<ce>                you can hear the clergy at prayer.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1111
+<ce>                You enter %cbd, hoping
+<ce>                that your spirits can be lifted on
+<ce>                this cool, overcast day. You can
+<ce>                hear chanting in the distance...
+<--->
+<ce>                Already you can feel the power of
+<ce>                %cbd sanctuary, warming
+<ce>                your cold body, brightening your
+<ce>                spirits which have grown dark as
+<ce>                the cloud filled sky...
+<--->
+<ce>                Strange sounds and smells meet you
+<ce>                as you leave the cool, cloudy day
+<ce>                the incense's bittersweet aroma is
+<ce>                new to your senses and the clergy
+<ce>                of %cbd sing
+<ce>                solemnly in a language dead for
+<ce>                many eons...
+
+----RAIN
+Message: 1112
+<ce>                You enter %cbd, shaking
+<ce>                the cold rain off of yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Trailing puddles of cold rain behind
+<ce>                behind you, you enter %cbd
+<ce>                sanctuary. An open window lets the smell
+<ce>                of the storm in, overpowering the sweet
+<ce>                incense of %cbd itself.
+<--->
+<ce>                Wiping the cold rain from your shoulders
+<ce>                and head, you walk into
+<ce>                %cbd sanctuary. Off to
+<ce>                the distance, you can hear the clergy,
+<ce>                prayer in a sing-song for a good
+<ce>                planting in spring for the farmers...
+
+----SNOW
+Message: 1113
+<ce>                You enter %cbd, shaking
+<ce>                the snow off of yourself and stamping
+<ce>                your feet to warm them. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Brushing the cold off you
+<ce>                walk into %cbd sanctuary.
+<ce>                The smell of incense strikes
+<ce>                you immediately, spicy and
+<ce>                somewhat sweet...
+<--->
+<ce>                You trail some cold into
+<ce>                %cbd sanctuary as you enter.
+<ce>                The air is as cold as the outdoors,
+<ce>                yet filled with the smell of
+<ce>                incense and the sound of the
+<ce>                clergy praying...
+
+
+--SPRING (1120)
+----SUNNY
+Message: 1120
+<ce>                You enter %cbd and a
+<ce>                cool spring breeze follows you,
+<ce>                bringing with it the smell of fresh
+<ce>                blooms. You can hear chanting in the
+<ce>                distance...
+<--->
+<ce>                It is bright and fresh in
+<ce>                %cbd sanctuary as the spring
+<ce>                day outside. In the distance, you
+<ce>                can hear the chanting of the clergy.
+<--->
+<ce>                The smell of the new blossoms of spring
+<ce>                that came into %cbd
+<ce>                sanctuary with you mixes with the
+<ce>                slightly spicy smell of incense. You can
+<ce>                hear the clergy far away, giving a pray
+<ce>                of thanksgiving for the beauty of the
+<ce>                new year.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1121
+<ce>                You enter %cbd wishing
+<ce>                that the sun would return and make the day
+<ce>                a truly pleasant one. You can hear chanting
+<ce>                in the distance...
+<--->
+<ce>                You walk into %cbd,
+<ce>                smelling the sweet incense that rises
+<ce>                like a cloud from the sanctuary floor.
+<ce>                In the distance, you hear the clergy
+<ce>                praying for a return of the sun to
+<ce>                this dreary spring day...
+<--->
+<ce>                You enter %cbd, gray as
+<ce>                this spring day sky. Almost immediately the
+<ce>                bittersweet smell of the incense strengthens
+<ce>                your spirit. The clergy drone their prayers
+<ce>                far off in the distance.
+
+----RAIN
+Message: 1122
+<ce>                You enter %cbd, shaking
+<ce>                the warm rain off of yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Trailing puddles of warm spring rain
+<ce>                behind you, you enter %cbd
+<ce>                sanctuary. An open window lets the smell
+<ce>                of the storm in, overpowering the sweet
+<ce>                incense of %cbd itself.
+<--->
+<ce>                Wiping the warm rain from your shoulders
+<ce>                and head, you walk into
+<ce>                %cbd sanctuary. Off to
+<ce>                the distance, you can hear the clergy,
+<ce>                prayer in a sing-song for a good
+<ce>                planting season for the farmers...
+
+
+--SUMMER (1130)
+----SUNNY
+Message: 1130
+<ce>                You enter %cbd, thankful
+<ce>                for the respite from the harsh summer sun.
+<ce>                You can hear chanting in the distance...
+<--->
+<ce>                The stinging of prickly heat is instantly
+<ce>                soothed the moment you enter
+<ce>                %cbd sanctuary. In the
+<ce>                distance, you can hear the low murmur of
+<ce>                chanting. This is a place of great
+<ce>                tranquillity.
+<--->
+<ce>                The god who protects %cbd
+<ce>                must be great indeed, for it is as bright
+<ce>                as the summer day yet comfortable as a
+<ce>                shadowy place within. A pleasant floral
+<ce>                odor of incense fills the air.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1131
+<ce>                You enter %cbd, hoping that
+<ce>                your spirits can be lifted on this gray,
+<ce>                overcast day. You can hear chanting in
+<ce>                the distance...
+<--->
+<ce>                As miserable as the sweltering summer day
+<ce>                is, it is at least less eerie than the
+<ce>                sterile %cbd sanctuary.
+<ce>                No birds or insects can be heard in here,
+<ce>                and the air is empty of both smell and
+<ce>                temperature. It may be very holy indeed,
+<ce>                but you feel like you have stepped into
+<ce>                a void.
+<--->
+<ce>                %cbd sanctuary is a haven
+<ce>                for all, a place of self reflection, solitude,
+<ce>                and prayer. It is always perfectly mild in
+<ce>                here, as hot and cloudy as the day outside may
+<ce>                be...
+
+----RAIN
+Message: 1132
+<ce>                You enter %cbd, shaking
+<ce>                the rain off of yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                You enter the hallowed ground of
+<ce>                %cbd sanctuary, the sounds
+<ce>                of the summer rain shower mixing
+<ce>                with that of the chanting clergy.
+<ce>                All your tension, like the rare
+<ce>                water, flows away.
+<--->
+<ce>                A fine mist, escaped from the tempest
+<ce>                outside, has flooded %cbd
+<ce>                sanctuary bringing all the smells of
+<ce>                summer with it. You recognize the
+<ce>                sing-song prayer of the clergy as a
+<ce>                plea for a benevolent summer sun.
+
+
+--FALL (1140)
+----SUNNY
+Message: 1140
+<ce>                You enter %cbd and a
+<ce>                confortable fall breeze follows you into the
+<ce>                hallowed halls. You can hear chanting
+<ce>                in the distance...
+<--->
+<ce>                The musty smell of autumn in the
+<ce>                outside air becomes mixed with
+<ce>                the spicy odor of incense as you
+<ce>                enter %cbd sanctuary...
+<--->
+<ce>                The stained glass windows in
+<ce>                %cbd sanctuary catch
+<ce>                the rays from the bright
+<ce>                autumn sun and transform them
+<ce>                into crystalline fire.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1141
+<ce>                You enter %cbd, hoping
+<ce>                that your spirits can be lifted on
+<ce>                this confortable, overcast day. You can
+<ce>                hear chanting in the distance...
+<--->
+<ce>                It is a miserable autumn day, but
+<ce>                within %cbd,
+<ce>                there is faith yet that the winter
+<ce>                may not be so deadly...
+<--->
+<ce>                Warm, dark clouds hang over
+<ce>                %cbd, but within you
+<ce>                find all is bright and warmer.
+<ce>                Billowing clouds of perfumed
+<ce>                incense greet your breath.
+
+----RAIN
+Message: 1142
+<ce>                You enter the warm %cbd,
+<ce>                shaking the cool rain off of
+<ce>                yourself. You can hear chanting in
+<ce>                the distance...
+<--->
+<ce>                Wet from the autumn thunderstorm, you
+<ce>                enter %cbd, dripping.
+<ce>                The warm smell of incense begins to
+<ce>                invigorate you, and in the distance,
+<ce>                you can hear %cbd clergy at
+<ce>                prayer.
+<--->
+<ce>                %cbd sanctuary is
+<ce>                a place of peace. Only by concentrating
+<ce>                on the world outside yourself can you
+<ce>                hear the vague drumbeat of the autumn
+<ce>                thunderstorm outside.
+
+
+-COLD (1200)***
+--WINTER (1210)*
+----SUNNY*
+Message: 1210
+<ce>                You enter %cbd, rubbing your hands together
+<ce>                to warm them on this frozen winter's day. You can
+<ce>                hear chanting in the distance...
+<--->
+<ce>                %cbd sanctuary is as austerely beautiful
+<ce>                as the bright winter's day outside. Tendrils of
+<ce>                sweet incense rise from the floor as if in
+<ce>                greeting...
+<--->
+<ce>                On a day as cold as it is blindingly bright,
+<ce>                it is easy to see why this part of %cbd
+<ce>                is called the sanctuary. Far off to the distance,
+<ce>                you can hear the clergy at prayer.
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1211
+<ce>                You enter %cbd, rubbing
+<ce>                your hands to warm them and hoping
+<ce>                that your spirits can be lifted on
+<ce>                this cold, overcast day. You can
+<ce>                hear chanting in the distance...
+<--->
+<ce>                Already you can feel the power of
+<ce>                %cbd sanctuary, thawing
+<ce>                your frigid body, brightening your
+<ce>                spirits which have grown dark as
+<ce>                the cloud filled sky...
+<--->
+<ce>                Strange sounds and smells meet you
+<ce>                as you leave the cold, cloudy
+<ce>                winter's day: the incense's
+<ce>                bittersweet aroma is new to your
+<ce>                senses and the clergy of
+<ce>                %cbd sing solemnly in
+<ce>                a language dead for many eons...
+
+----SNOW*
+Message: 1213
+<ce>                You enter %cbd, shaking
+<ce>                the cold off of yourself and stamping
+<ce>                your feet to warm them. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Brushing the snow off your
+<ce>                shoulders and head, you walk
+<ce>                into %cbd sanctuary.
+<ce>                The smell of incense strikes
+<ce>                you immediately, spicy and
+<ce>                somewhat sweet...
+<--->
+<ce>                You trail some snow into
+<ce>                %cbd sanctuary as you enter.
+<ce>                The air is as cold as outside here,
+<ce>                yet filled with the smell of
+<ce>                incense and the sound of the
+<ce>                clergy praying...
+
+
+
+--SPRING (1220)*
+----SUNNY*
+Message: 1220
+<ce>                You enter %cbd and a
+<ce>                chill spring breeze follows you,
+<ce>                bringing with it the smell of fresh
+<ce>                air. You can hear chanting in the
+<ce>                distance...
+<--->
+<ce>                It is bright and fresh in
+<ce>                %cbd sanctuary as the spring
+<ce>                day outside. In the distance, you
+<ce>                can hear the chanting of the clergy.
+<--->
+<ce>                The smell of the fresh mountain air
+<ce>                of spring that came into
+<ce>                %cbd sanctuary with
+<ce>                you mixes with the slightly spicy
+<ce>                smell of incense. You can hear the
+<ce>                clergy far away, giving a pray of
+<ce>                thanksgiving for the beauty of the
+<ce>                new year.
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1221
+<ce>                You enter %cbd wishing
+<ce>                that the sun would return and make the day
+<ce>                a truly pleasant one. You can hear chanting
+<ce>                in the distance...
+<--->
+<ce>                You walk into %cbd,
+<ce>                smelling the sweet incense that rises
+<ce>                like a cloud from the sanctuary floor.
+<ce>                In the distance, you hear the clergy
+<ce>                praying for a return of the sun to
+<ce>                this dreary and cold spring day...
+<--->
+<ce>                You enter %cbd, gray as
+<ce>                this spring day sky. Almost immediately the
+<ce>                bittersweet smell of the incense strengthens
+<ce>                your spirit. The clergy drone their prayers
+<ce>                far off in the distance.
+
+----RAIN*
+Message: 1222
+<ce>                You enter %cbd, shaking
+<ce>                the cool rain off of yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Trailing puddles of cool spring rain
+<ce>                behind you, you enter %cbd
+<ce>                sanctuary. An open window lets the smell
+<ce>                of the storm in, overpowering the sweet
+<ce>                incense of %cbd itself.
+<--->
+<ce>                Wiping the cool rain from your shoulders
+<ce>                and head, you walk into
+<ce>                %cbd sanctuary. Off to
+<ce>                the distance, you can hear the clergy,
+<ce>                prayer in a sing-song for a good
+<ce>                planting season for the farmers...
+
+
+
+--SUMMER (1230)*
+----SUNNY*
+Message: 1230
+<ce>                You enter %cbd, thankful
+<ce>                for the respite from the harsh summer sun
+<ce>                and cold winds. You can hear chanting in
+<ce>                the distance...
+<--->
+<ce>                The stinging of prickly heat is instantly
+<ce>                soothed the moment you enter
+<ce>                %cbd sanctuary. In the
+<ce>                distance, you can hear the low murmur of
+<ce>                chanting. This is a place of great
+<ce>                tranquillity.
+<--->
+<ce>                The god who protects %cbd
+<ce>                must be great indeed, for it is as bright
+<ce>                as the summer day yet comfortable as a
+<ce>                shadowy place within. A pleasant floral
+<ce>                odor of incense fills the air.
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1231
+<ce>                You enter %cbd, hoping that
+<ce>                your spirits can be lifted on this gray,
+<ce>                overcast day. You can hear chanting in
+<ce>                the distance...
+<--->
+<ce>                As miserable as the sweltering summer day
+<ce>                is, it is less eerie than the sterile
+<ce>                %cbd sanctuary.
+<ce>                No birds or insects can be heard in here,
+<ce>                and the air is empty of both smell and
+<ce>                temperature. It may be very holy indeed,
+<ce>                but you feel like you have stepped into
+<ce>                a void.
+<--->
+<ce>                %cbd sanctuary is a haven
+<ce>                for all, a place of self reflection, solitude,
+<ce>                and prayer. It is always perfectly mild in
+<ce>                here, as cold and cloudy as the day outside may
+<ce>                be...
+
+----RAIN*
+Message: 1232
+<ce>                You enter %cbd, shaking
+<ce>                the rain off of yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                You enter the hallowed ground of
+<ce>                %cbd sanctuary, the sounds
+<ce>                of the summer rain shower mixing
+<ce>                with that of the chanting clergy.
+<ce>                All your tension like water
+<ce>                flows away.
+<--->
+<ce>                A fine mist, escaped from the tempest
+<ce>                outside, has flooded %cbd
+<ce>                sanctuary bringing all the smells of
+<ce>                summer with it. You recognize the
+<ce>                sing-song prayer of the clergy as a
+<ce>                plea for a benevolent winter sun.
+
+
+--FALL (1240)*
+----SUNNY*
+Message: 1240
+<ce>                You enter %cbd and a
+<ce>                chill fall breeze follows you into the
+<ce>                hallowed halls. You can hear chanting
+<ce>                in the distance...
+<--->
+<ce>                The musty smell of autumn in the
+<ce>                outside air becomes mixed with
+<ce>                the spicy odor of incense as you
+<ce>                enter %cbd sanctuary...
+<--->
+<ce>                The stained glass windows in
+<ce>                %cbd sanctuary catch
+<ce>                the rays from the bright
+<ce>                autumn sun and transform them
+<ce>                into crystalline fire.
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1241
+<ce>                You enter %cbd, hoping
+<ce>                that your spirits can be lifted on
+<ce>                this cold, overcast day. You can
+<ce>                hear chanting in the distance...
+<--->
+<ce>                It is a miserable autumn day, but
+<ce>                within %cbd,
+<ce>                there is faith yet that the winter
+<ce>                may not be so deadly...
+<--->
+<ce>                Cold, dark clouds hang over
+<ce>                %cbd, but within you
+<ce>                find all is bright and warm.
+<ce>                Billowing clouds of perfumed
+<ce>                incense greet the fog of
+<ce>                your breath.
+
+----RAIN*
+Message: 1242
+<ce>                You enter %cbd,
+<ce>                shaking the cold rain off of
+<ce>                yourself. You can hear
+<ce>                chanting in the distance...
+<--->
+<ce>                Wet from the autumn thunderstorm, you
+<ce>                enter %cbd, dripping.
+<ce>                The warm smell of incense begins to
+<ce>                invigorate you, and in the distance,
+<ce>                you can hear %cbd clergy at
+<ce>                prayer.
+<--->
+<ce>                %cbd sanctuary is
+<ce>                a place of peace. Only by concentrating
+<ce>                on the world outside yourself can you
+<ce>                hear the vague drumbeat of the autumn
+<ce>                thunderstorm outside.
+
+QBN:
+
+--	Quest start-up
+    pc at any temple do _inside_
+
+variable _inside_
+
+--Seasons Detect
+_winter_ task:
+    season winter
+
+_spring_ task:
+    season spring
+
+_summer_ task:
+    season summer
+
+_fall_ task:
+    season fall
+
+--Weather Detect
+_sunny_ task:
+    weather sunny
+
+_overcast_ task:
+    weather overcast
+
+_rain_ task:
+    weather rain
+
+_thunder_ task:
+    weather thunder
+
+_rainy_ task:
+    when _rain_ or _thunder_
+
+_snow_ task:
+    weather snow
+
+--Climate Detect
+_desert_ task:
+    climate base desert
+
+_swamp_ task:
+    climate base swamp
+
+_mountain_ task:
+    climate base mountain
+
+_temperate_ task:
+    climate base temperate
+
+_hot_ task:
+    when _desert_ or _swamp_
+
+_mid_ task:
+    when _temperate_
+
+_cold_ task:
+    when _mountain_
+
+--Time of day Detect
+_day_ task:
+    daily from 06:00 to 18:00
+
+-TEMPERATE
+--WINTER TASKS
+---day/sunny
+_tmplmidwsud_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _sunny_
+    say 1010
+
+---day/overcast
+_tmplmidwod_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _overcast_
+    say 1011
+
+---day/snow
+_tmplmidwsd_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _snow_
+    say 1013
+
+_resetwinter_ task:
+    when _tmplmidwsud_ or _tmplmidwod_ or _tmplmidwsd_ and not _inside_
+
+--SPRING TASKS
+---day/sunny
+_tmplmidspsud_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _sunny_
+    say 1020
+
+---day/overcast
+_tmplmidspod_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _overcast_
+    say 1021
+
+---day/rain
+_tmplmidsprd_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _rainy_
+    say 1022
+
+
+--SUMMER TASKS
+---day/sunny
+_tmplmidsusud_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _sunny_
+    say 1030
+
+---day/overcast
+_tmplmidsuod_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _overcast_
+    say 1031
+
+---day/rain
+_tmplmidsurd_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _rainy_
+    say 1032
+
+
+--FALL TASKS
+---day/sunny
+_tmplmidfsud_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _sunny_
+    say 1040
+
+---day/overcast
+_tmplmidfod_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _overcast_
+    say 1041
+
+---day/rain
+_tmplmidfrd_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _rainy_
+    say 1042
+
+--=================
+
+-HOT
+--WINTER TASKS
+---day/sunny
+_tmplhotwsud_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _sunny_
+    say 1110
+
+---day/overcast
+_tmplhotwod_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _overcast_
+    say 1111
+
+---day/rain
+_tmplhotwrd_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _rainy_
+    say 1112
+
+---day/snow
+_tmplhotwsd_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _snow_
+    say 1113
+
+
+--SPRING TASKS
+---day/sunny
+_tmplhotspsud_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _sunny_
+    say 1120
+
+---day/overcast
+_tmplhotspod_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _overcast_
+    say 1121
+
+---day/rain
+_tmplhotsprd_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _rainy_
+    say 1122
+
+
+--SUMMER TASKS
+---day/sunny
+_tmplhotsusud_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _sunny_
+    say 1130
+
+---day/overcast
+_tmplhotsuod_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _overcast_
+    say 1131
+
+---day/rain
+_tmplhotsurd_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _rainy_
+    say 1132
+
+
+--FALL TASKS
+---day/sunny
+_tmplhotfsud_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _sunny_
+    say 1140
+
+---day/overcast
+_tmplhotfod_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _overcast_
+    say 1141
+
+---day/rain
+_tmplhotfrd_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _rainy_
+    say 1142
+--=================
+
+-COLD
+--WINTER TASKS
+---day/sunny
+_tmplcoldwsud_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _sunny_
+    say 1210
+
+---day/overcast
+_tmplcoldwod_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _overcast_
+    say 1211
+
+---day/snow
+_tmplcoldwsd_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _snow_
+    say 1213
+
+
+--SPRING TASKS
+---day/sunny
+_tmplcoldspsud_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _sunny_
+    say 1220
+
+---day/overcast
+_tmplcoldspod_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _overcast_
+    say 1221
+
+---day/rain
+_tmplcoldsprd_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _rainy_
+    say 1222
+
+
+--SUMMER TASKS
+---day/sunny
+_tmplcoldsusud_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _sunny_
+    say 1230
+
+---day/overcast
+_tmplcoldsuod_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _overcast_
+    say 1231
+
+---day/rain
+_tmplcoldsurd_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _rainy_
+    say 1232
+
+
+--FALL TASKS
+---day/sunny
+_tmplcoldfsud_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _sunny_
+    say 1240
+
+---day/overcast
+_tmplcoldfod_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _overcast_
+    say 1241
+
+---day/rain
+_tmplcoldfrd_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _rainy_
+    say 1242
+
+_resettmpl_ task:
+    when not _inside_
+    start quest ARENAMSGMAIN
+    end quest

@@ -1,0 +1,468 @@
+Quest: ARENAMSGTemplate
+DisplayName: Arena Messages - Template
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>            
+
+RefuseQuest:  [1001]
+<ce>            
+
+AcceptQuest:  [1002]
+<ce>            
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce>            
+
+-TEMPERATE
+--WINTER (1010)
+----SUNNY
+Message: 1010
+
+----CLOUDY/OVERCAST/FOG
+Message: 1011
+
+----SNOW
+Message: 1013
+
+
+
+--SPRING (1020)
+----SUNNY
+Message: 1020
+
+----CLOUDY/OVERCAST/FOG
+Message: 1021
+
+----RAIN
+Message: 1022
+
+
+
+--SUMMER (1030)
+----SUNNY
+Message: 1030
+
+----CLOUDY/OVERCAST/FOG
+Message: 1031
+
+----RAIN
+Message: 1032
+
+
+
+--FALL (1040)
+----SUNNY
+Message: 1040
+
+----CLOUDY/OVERCAST/FOG
+Message: 1041
+
+----RAIN
+Message: 1042
+
+
+
+-HOT (1100
+--WINTER (1110)
+----SUNNY
+Message: 1110
+
+----CLOUDY/OVERCAST/FOG
+Message: 1111
+
+----RAIN
+Message: 1112
+
+----SNOW
+Message: 1113
+
+
+
+--SPRING (1120)
+----SUNNY
+Message: 1120
+
+----CLOUDY/OVERCAST/FOG
+Message: 1121
+
+----RAIN
+Message: 1122
+
+
+
+--SUMMER (1130)
+----SUNNY
+Message: 1130
+
+----CLOUDY/OVERCAST/FOG
+Message: 1131
+
+----RAIN
+Message: 1132
+
+
+
+--FALL (1140)
+----SUNNY
+Message: 1140
+
+----CLOUDY/OVERCAST/FOG
+Message: 1141
+
+----RAIN
+Message: 1142
+
+
+
+
+-COLD (1200)***
+--WINTER (1210)*
+----SUNNY*
+Message: 1210
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1211
+
+----SNOW*
+Message: 1213
+
+
+
+--SPRING (1220)*
+----SUNNY*
+Message: 1220
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1221
+
+----RAIN*
+Message: 1222
+
+
+
+--SUMMER (1230)*
+----SUNNY*
+Message: 1230
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1231
+
+----RAIN*
+Message: 1232
+
+
+
+--FALL (1240)*
+----SUNNY*
+Message: 1240
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1241
+
+----RAIN*
+Message: 1242
+
+
+
+QBN:
+Place _inn_ local tavern
+Item _letter1_ letter used 1010
+Item _letter2_ letter used 1011
+Item _letter4_ letter used 1013
+Item _letter6_ letter used 1020
+Item _letter7_ letter used 1021
+Item _letter8_ letter used 1022
+Item _letter11_ letter used 1030
+Item _letter12_ letter used 1031
+Item _letter13_ letter used 1032
+Item _letter16_ letter used 1040
+Item _letter17_ letter used 1041
+Item _letter18_ letter used 1042
+
+
+--	Quest start-up
+    pc at any do _inside_
+    get item _letter1_
+    get item _letter2_
+    get item _letter4_
+    get item _letter6_
+    get item _letter7_
+    get item _letter8_
+    get item _letter11_
+    get item _letter12_
+    get item _letter13_
+    get item _letter16_
+    get item _letter17_
+    get item _letter18_
+
+variable _inside_
+
+--Seasons Detect
+_winter_ task:
+    season winter
+
+_spring_ task:
+    season spring
+
+_summer_ task:
+    season summer
+
+_fall_ task:
+    season fall
+
+--Weather Detect
+_sunny_ task:
+    weather sunny
+
+_overcast_ task:
+    weather overcast
+
+_rain_ task:
+    weather rain
+
+_thunder_ task:
+    weather thunder
+
+_snow_ task:
+    weather snow
+
+--Climate Detect
+_desert_ task:
+    climate base desert
+
+_swamp_ task:
+    climate base swamp
+
+_mountain_ task:
+    climate base mountain
+
+_temperate_ task:
+    climate base temperate
+
+_hot_ task:
+    when _desert_ or _swamp_
+
+_mid_ task:
+    when _temperate_
+
+_cold_ task:
+    when _mountain_
+
+--Time of day Detect
+_day_ task:
+    daily from 06:00 to 18:00
+
+-TEMPERATE
+--WINTER TASKS
+---day/sunny
+_innmidwsud_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _sunny_
+    say 1010
+
+---day/overcast
+_innmidwod_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _overcast_
+    say 1011
+
+---day/snow
+_innmidwsd_ task:
+    when _inside_ and _winter_ and _day_ and _mid_ and _snow_
+    say 1013
+
+--SPRING TASKS
+---day/sunny
+_innmidspsud_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _sunny_
+    say 1020
+
+---day/overcast
+_innmidspod_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _overcast_
+    say 1021
+
+---day/rain
+_innmidsprd_ task:
+    when _inside_ and _spring_ and _day_ and _mid_ and _rain_ or _thunder_
+    say 1022
+
+
+--SUMMER TASKS
+---day/sunny
+_innmidsusud_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _sunny_
+    say 1030
+
+---day/overcast
+_innmidsuod_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _overcast_
+    say 1031
+
+---day/rain
+_innmidsurd_ task:
+    when _inside_ and _summer_ and _day_ and _mid_ and _rain_ or _thunder_
+    say 1032
+
+
+--FALL TASKS
+---day/sunny
+_innmidfsud_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _sunny_
+    say 1040
+
+---day/overcast
+_innmidfod_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _overcast_
+    say 1041
+
+---day/rain
+_innmidfrd_ task:
+    when _inside_ and _fall_ and _day_ and _mid_ and _rain_ or _thunder_
+    say 1042
+--=================
+
+-HOT
+--WINTER TASKS
+---day/sunny
+_innhotwsud_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _sunny_
+    say 1110
+
+---day/overcast
+_innhotwod_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _overcast_
+    say 1111
+
+---day/rain
+_innhotwrd_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _rain_ or _thunder_
+    say 1112
+
+---day/snow
+_innhotwsd_ task:
+    when _inside_ and _winter_ and _day_ and _hot_ and _snow_
+    say 1113
+
+
+--SPRING TASKS
+---day/sunny
+_innhotspsud_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _sunny_
+    say 1120
+
+---day/overcast
+_innhotspod_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _overcast_
+    say 1121
+
+---day/rain
+_innhotsprd_ task:
+    when _inside_ and _spring_ and _day_ and _hot_ and _rain_ or _thunder_
+    say 1122
+
+
+--SUMMER TASKS
+---day/sunny
+_innhotsusud_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _sunny_
+    say 1130
+
+---day/overcast
+_innhotsuod_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _overcast_
+    say 1131
+
+---day/rain
+_innhotsurd_ task:
+    when _inside_ and _summer_ and _day_ and _hot_ and _rain_ or _thunder_
+    say 1132
+
+
+--FALL TASKS
+---day/sunny
+_innhotfsud_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _sunny_
+    say 1140
+
+---day/overcast
+_innhotfod_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _overcast_
+    say 1141
+
+---day/rain
+_innhotfrd_ task:
+    when _inside_ and _fall_ and _day_ and _hot_ and _rain_ or _thunder_
+    say 1142
+--=================
+
+-COLD
+--WINTER TASKS
+---day/sunny
+_inncoldwsud_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _sunny_
+    say 1210
+
+---day/overcast
+_inncoldwod_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _overcast_
+    say 1211
+
+---day/snow
+_inncoldwsd_ task:
+    when _inside_ and _winter_ and _day_ and _cold_ and _snow_
+    say 1213
+
+
+--SPRING TASKS
+---day/sunny
+_inncoldspsud_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _sunny_
+    say 1220
+
+---day/overcast
+_inncoldspod_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _overcast_
+    say 1221
+
+---day/rain
+_inncoldsprd_ task:
+    when _inside_ and _spring_ and _day_ and _cold_ and _rain_ or _thunder_
+    say 1222
+
+
+--SUMMER TASKS
+---day/sunny
+_inncoldsusud_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _sunny_
+    say 1230
+
+---day/overcast
+_inncoldsuod_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _overcast_
+    say 1231
+
+---day/rain
+_inncoldsurd_ task:
+    when _inside_ and _summer_ and _day_ and _cold_ and _rain_ or _thunder_
+    say 1232
+
+
+--FALL TASKS
+---day/sunny
+_inncoldfsud_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _sunny_
+    say 1240
+
+---day/overcast
+_inncoldfod_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _overcast_
+    say 1241
+
+---day/rain
+_inncoldfrd_ task:
+    when _inside_ and _fall_ and _day_ and _cold_ and _rain_ or _thunder_
+    say 1242

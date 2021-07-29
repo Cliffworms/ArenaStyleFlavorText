@@ -1,0 +1,11 @@
+schema: *name, group, membership, minReq, flag, notes
+
+ARENAMSGMAIN, InitAtGameStart, n, 0, 0, Main - Detects buildings PC enters
+ARENAMSGINN, NonMemberGuild, n, 0, 0, Taverns
+ARENAMSGTMPL, NonMemberGuild, n, 0, 0, Temples
+ARENAMSGMG, NonMemberGuild, n, 0, 0, Mages Guild
+ARENAMSGPAL, NonMemberGuild, n, 0, 0, Palaces
+ARENAMSGSHOPS, NonMemberGuild, n, 0, 0, Shops
+ARENAMSGCSTLDF, NonMemberGuild, n, 0, 0, Daggerfall Castle
+ARENAMSGCSTLWAY, NonMemberGuild, n, 0, 0, Wayrest Castle
+ARENAMSGCSTLSEN, NonMemberGuild, n, 0, 0, Sentinel Castle

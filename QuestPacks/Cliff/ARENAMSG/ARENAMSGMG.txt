@@ -1,0 +1,1954 @@
+Quest: ARENAMSGMG
+DisplayName: Arena Messages - Mages Guilds
+-- Message panels
+QRC:
+
+QuestorOffer:  [1000]
+<ce>            
+
+RefuseQuest:  [1001]
+<ce>            
+
+AcceptQuest:  [1002]
+<ce>            
+
+QuestFail:  [1003]
+<ce>            
+
+QuestComplete:  [1004]
+<ce>            
+
+-TEMPERATE
+--WINTER (1010)
+----SUNNY
+Message: 1010
+<ce>The sun outside has done little to warm
+<ce>your bones, which are now almost frozen.
+<ce>You enter the Mages Guild, stamping your
+<ce>feet and crowding close to a brazier
+<ce>that glows hot with fiery coals. As the
+<ce>warmth slowly seeps in, you notice
+<ce>arcane implements and mystical apparati.
+<ce>You think you feel a strange tingling on
+<ce>your skin.
+<--->
+<ce>As sunny as it was, you felt a winter
+<ce>chill outside and now, within the Mages
+<ce>Guild, you feel the cold more intensely.
+<ce>Dust lies on the shelves of books,
+<ce>potions, and relics like an early frost.
+<ce>The stone walls of the chamber glisten
+<ce>with ice.
+<--->
+<ce>The melancholy Mages Guild is slightly
+<ce>warmer than the winter day outside but,
+<ce>without the sunlight, the effect is much
+<ce>the same. Many books and arcane
+<ce>instruments lie scattered about, but
+<ce>they fail to lend any vitality to the
+<ce>scene. It is a place of mystical study,
+<ce>not built for human comfort.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1011
+<ce>The gray sky has done little to warm
+<ce>your bones, which by now are almost
+<ce>frozen. You enter the Mages Guild,
+<ce>stamping your feet to increase the
+<ce>circulation and crowd close to a
+<ce>brazier that glows hot with fiery coals.
+<ce>As the warmth slowly seeps in, you
+<ce>notice arcane implements and mystical
+<ce>apparati. You think you feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>It is a perfect day for those who
+<ce>practice the shadowy arts: the Mages
+<ce>Guild comes most alive on cold, dark
+<ce>winter days. Cauldrons bubble on the
+<ce>fireplace, filling the room with
+<ce>translucent smoke that smells of animal
+<ce>fat and sulfur. The shelves are
+<ce>cluttered with mystical books and
+<ce>artifacts...
+<--->
+<ce>You know that you can only see half of
+<ce>what is in the Mages Guild. The titles
+<ce>of the books on the shelves seem to
+<ce>change depending on the angle you look.
+<ce>Invisible fingers run through the dust
+<ce>and over your face. From the corner of
+<ce>your eye, you can see demons grinning
+<ce>at you, but they vanish when you turn to
+<ce>look at them. As dark a winter day as it
+<ce>is outside, you want to do your business
+<ce>here and leave...
+
+----SNOW
+Message: 1013
+<ce>Snow and wind swirl about you as you
+<ce>enter the Mages Guild and shut the door.
+<ce>Outside the winter snow falls without
+<ce>any signs of stopping. You stamp your
+<ce>feet and crowd close to a brazier that
+<ce>glows hot with fiery coals. As the warmth
+<ce>slowly seeps in, you notice arcane
+<ce>implements and mystical apparati. You
+<ce>think you feel a strange tingling over
+<ce>your skin.
+<--->
+<ce>The white dust in the Mages Guild is not
+<ce>as deep as the snow outside, but it is so
+<ce>omnipresent that all the arcane relics
+<ce>within seem to be covered in a thin
+<ce>shroud. It is an almost soundless chamber,
+<ce>with only an occasional sigh from the pot
+<ce>of boiling liquid on the fire. Slowly
+<ce>warmth creeps back into your chilled body.
+<--->
+<ce>You enter the dim Mages Guild, warmed by
+<ce>a spell that dries the snow from your face
+<ce>and hair almost immediately. Books, charms,
+<ce>scrolls, and other relics, older than human
+<ce>memory, are kept in pristine condition here
+<ce>by the same mystic energy.
+
+
+--SPRING (1020)
+----SUNNY
+Message: 1020
+<ce>A cool breeze follows you into the Mages
+<ce>Guild, drying the slight sheen of sweat
+<ce>from your brow. The interior smells of
+<ce>spices and chemicals. As your eyes
+<ce>adjust to the dim light you can make out
+<ce>arcane implements and mystical apparati.
+<ce>You think you feel a strange tingling on
+<ce>your skin.
+<--->
+<ce>You enter the Mages Guild, the smell of
+<ce>sulfur and rotting parchment replacing
+<ce>that of new spring blossoms. Scrolls and
+<ce>potions, relics and artifacts vie for
+<ce>space on the bookshelves. You can hear
+<ce>small living things scuttling behind the
+<ce>volumes of alien encyclopedia.
+<--->
+<ce>The mystical energy in the Mages Guild
+<ce>runs through you like a charge of
+<ce>lightning. Outside nature is in her full
+<ce>vernal glory on this sunny day, but she
+<ce>has little power in here. From the stone
+<ce>walls to the scrolls and potions, the
+<ce>most mundane parts of this chamber seem
+<ce>like phantasmagoria.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1021
+<ce>Although the sky is gray the weather
+<ce>itself is pleasant. You can smell
+<ce>rain in the air, but that quickly
+<ce>changes as the door shuts behind you.
+<ce>The Mages Guild smells like old
+<ce>spices and chemicals. You can make
+<ce>out dozens of arcane implements and
+<ce>mystical apparati. You think you feel
+<ce>a strange tingling on your skin.
+<--->
+<ce>You enter the Mages Guild from the
+<ce>gloomy spring day and are struck by
+<ce>the clutter. You know that wizardry
+<ce>is a mental art, and it is hard to
+<ce>believe the sorcerers behind this
+<ce>jumble of items and apparati are not
+<ce>either madmen or fools. You can
+<ce>definitely hear small living things
+<ce>move about in the piles.
+<--->
+<ce>The Mages Guild is not a place where
+<ce>the normal gods of Nature hold reign,
+<ce>but on such a bleak spring day, it
+<ce>does not look like they have power
+<ce>anywhere. Somehow the chamber is
+<ce>simultaneously too hot and too cold,
+<ce>wet with humidity in one spot, drier
+<ce>than the Khajiit desert in another.
+<ce>Even the mystical items on the shelves
+<ce>are juxtaposed between extremes,
+<ce>ancient scrolls next to modern
+<ce>measuring devices, this one filthy
+<ce>with neglect, that polished with care.
+
+----RAIN
+Message: 1022
+<ce>You shake the warm rain from your
+<ce>shoulders, conscious of the pooling
+<ce>water at your feet. As your eyes
+<ce>slowly adjust to the dim interior,
+<ce>you can make out arcane implements
+<ce>and mystical apparati. You think you
+<ce>feel a strange tingling on your skin.
+<--->
+<ce>As thick as the stone walls of the
+<ce>Mages guild are, you can hear
+<ce>virtually every splatter of the spring
+<ce>rain outside. You are almost afraid to
+<ce>talk, for every echo of each footstep
+<ce>causes great clouds of dust to billow.
+<ce>And there are books and apparati in
+<ce>this room, you suspect, that should
+<ce>never be disturbed.
+<--->
+<ce>An open window in the Mages Guild lets
+<ce>in the smell of the spring storm, which
+<ce>mingles with the chemical stench that
+<ce>bubbles from an open cauldron. The
+<ce>chamber is filled with arcane objects,
+<ce>jugs, cloaks, scrolls, amulets, tomes,
+<ce>brooches, potions, robes, figurines,
+<ce>talismans.
+
+
+--SUMMER (1030)
+----SUNNY
+Message: 1030
+<ce>You wipe the sweat off your brow as you
+<ce>enter the Mages Guild. The cool shade
+<ce>of the interior is a welcomed sight
+<ce>after standing under the harsh summer
+<ce>sun. Around you are arcane implements
+<ce>and mystical apparati. You feel a slight
+<ce>tingling on your skin.
+<--->
+<ce>For a moment after leaving the bright
+<ce>summer sunshine, your eyes register only
+<ce>darkness in the gloomy Mages Guild. When
+<ce>they adjust, you can understand very
+<ce>little of what you see. Tomes of
+<ce>antiquated wizardry and obscure objects
+<ce>crowd the dusty shelves.
+<--->
+<ce>The door to the Mages Guild opens with a
+<ce>puff of dust that sticks to the sweat on
+<ce>your sunburned face. The smells of
+<ce>sulfurous potions burning and ancient
+<ce>scrolls of moldering parchment sting your
+<ce>nose. At least it is cool in here, you
+<ce>say to yourself.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1031
+<ce>You enter the Mages Guild, its gloomy
+<ce>interior not much different from the
+<ce>iron-gray, overcast sky outside. At
+<ce>least, you silently think, the sun
+<ce>isn't out. Around you are arcane
+<ce>implements and mystical apparati. You
+<ce>feel a slight tingling on your skin.
+<--->
+<ce>All the humidity and heat of the day
+<ce>are intensified in the Mages Guild.
+<ce>To add to the infernal atmosphere,
+<ce>tendrils of soot-filled smoke and the
+<ce>whimpers from some doomed experiment
+<ce>slip through the cracks of locked
+<ce>doors. Each book on the shelf looks
+<ce>like it is watching you.
+<--->
+<ce>You enter the Mages Guild, an
+<ce>amalgamation of primordial relics,
+<ce>moldering scrolls, dripping unguents,
+<ce>and smoking fluids. An occasional
+<ce>groan or minor explosion can be heard
+<ce>coming from the laboratories. At least
+<ce>it's not as hot and humid as outside.
+
+----RAIN
+Message: 1032
+<ce>You shake the rain from your shoulders
+<ce>as you enter the Mages Guild. The dry
+<ce>interior is a welcomed sight after
+<ce>standing in the downpour outside.
+<ce>Around you are arcane implements and
+<ce>mystical apparati. You feel a slight
+<ce>tingling on your skin.
+<--->
+<ce>The sound of the warm summer rain is
+<ce>muffled by the thick walls and
+<ce>thicker velvet curtains. This is a
+<ce>place where the outside world is a
+<ce>distraction to be avoided. The smells,
+<ce>sights, and sounds here are unique to
+<ce>the field of mystical experimentation.
+<--->
+<ce>You enter the Mages Guild, avoiding
+<ce>the puddles of rainwater leaking under
+<ce>the door. The room is damp, but the
+<ce>thick stone walls keep it cool even in
+<ce>the dog days of summer. Strange devices
+<ce>and venerable tomes crowd across the
+<ce>dust and soot streaked shelves.
+
+
+--FALL (1040)
+----SUNNY
+Message: 1040
+<ce>Behind you the fall sun sheds warmth
+<ce>upon the land, holding back the icy
+<ce>fingers of winter yet another day.
+<ce>Around you are arcane implements and
+<ce>mystical apparati. You feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>While the local farmers have been
+<ce>gathering their crops, it would
+<ce>appear the mages have been collecting
+<ce>a harvest of their own. The Mages
+<ce>Guild is crowded with scrolls, relics,
+<ce>charms, and artifacts. Clearly some
+<ce>extensive trading between one town's
+<ce>guild to another's has been going on
+<ce>this fall.
+<--->
+<ce>You enter the Mages Guild, a world
+<ce>where nature holds little power.
+<ce>Outside leaves are falling and plants
+<ce>are dying back into the ground, but
+<ce>in here, strange flora lives year
+<ce>round, competing for space next to
+<ce>the scrolls, potions, and other
+<ce>mystic apparati that crowds the
+<ce>Guild's shelves.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1041
+<ce>You enter the Mage's Guild, its
+<ce>gloomy interior not much different
+<ce>from the cold, overcast sky
+<ce>outside. At least, you silently
+<ce>thank, the interior is warm. You
+<ce>rub your hands together to bring
+<ce>back some feeling. Around you are
+<ce>arcane implements and mystical
+<ce>apparati. You feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>On a dark cool day like today,
+<ce>those who devote their lives to
+<ce>the mystical sciences are at
+<ce>their busiest. Outside, people
+<ce>look into the sky and view the
+<ce>coming winter with dread. All in
+<ce>the Mages Guild are as ctive with
+<ce>mystic energy as they might be on
+<ce>any day, including the books and
+<ce>relics that line the shelves.
+<--->
+<ce>You enter the Mages Guild, going from
+<ce>a cool gloomy outside to a cool
+<ce>gloomy inside. Because of the shadows,
+<ce>you cannot see all that the chamber
+<ce>contains. You suspect that even by the
+<ce>light of a bright day, the room has
+<ce>its secrets. Potions, relics, and books
+<ce>line the bookshelves shrouded by a fine
+<ce>dust.
+
+----RAIN
+Message: 1042
+<ce>You shake the cold rain from your
+<ce>shoulders as you enter the Mages
+<ce>Guild, stamping your feet to bring
+<ce>back some warmth. The dry interior
+<ce>is a welcomed sight after standing
+<ce>in the icy downpour outside.
+<ce>Around you are arcane implements
+<ce>and mystical apparati. You feel a
+<ce>slight tingling on your skin.
+<--->
+<ce>The Mages Guild is dry, but no
+<ce>more welcome that the cold autumn
+<ce>tempest outside. Strange and
+<ce>exotic potions, ancient scrolls,
+<ce>and arcane relics look down at
+<ce>you from the shelves as if they
+<ce>are predatory birds, watching for
+<ce>you to make a mistake. The dark
+<ce>energy in the room goes through
+<ce>you like a charge.
+<--->
+<ce>All along the walls of the Mages
+<ce>Guild, blackened with soot and
+<ce>neglect, are shelves of books and
+<ce>arcane apparati so cloaked in
+<ce>dust to be practically
+<ce>indistinguishable one from the
+<ce>other. You can hear the sound of
+<ce>the fall cloudburst outside,
+<ce>uncomfortably loud in the normally
+<ce>still little room.
+
+
+
+-DESERT (1100)
+--WINTER (1110)
+----SUNNY
+Message: 1110
+<ce>A cool breeze follows you into the Mages
+<ce>Guild, drying the slight sheen of sweat
+<ce>from your brow. The interior smells of
+<ce>spices and chemicals. As your eyes
+<ce>adjust to the dim light you can make out
+<ce>arcane implements and mystical apparati.
+<ce>You think you feel a strange tingling on
+<ce>your skin.
+<--->
+<ce>As sunny as it was, you felt a cool
+<ce>chill outside and now, within the Mages
+<ce>Guild, you feel the cold more intensely.
+<ce>Dust lies on the shelves of books,
+<ce>potions, and relics like an early frost.
+<--->
+<ce>The melancholy Mages Guild is slightly
+<ce>warmer than the day outside but,
+<ce>without the sunlight, the effect is much
+<ce>the same. Many books and arcane
+<ce>instruments lie scattered about, but
+<ce>they fail to lend any vitality to the
+<ce>scene. It is a place of mystical study,
+<ce>not built for human comfort.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1111
+<ce>The gray sky has done little to warm
+<ce>your bones, which by now are chill
+<ce>indeed. You enter the Mages Guild,
+<ce>stamping your feet to increase the
+<ce>circulation and crowd close to a
+<ce>brazier that glows hot with fiery coals.
+<ce>As the warmth slowly seeps in, you
+<ce>notice arcane implements and mystical
+<ce>apparati. You think you feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>It is a perfect day for those who
+<ce>practice the shadowy arts: the Mages
+<ce>Guild comes most alive on chill, dark
+<ce>days. Cauldrons bubble on the
+<ce>fireplace, filling the room with
+<ce>translucent smoke that smells of animal
+<ce>fat and sulfur. The shelves are
+<ce>cluttered with mystical books and
+<ce>artifacts...
+<--->
+<ce>You know that you can only see half of
+<ce>what is in the Mages Guild. The titles
+<ce>of the books on the shelves seem to
+<ce>change depending on the angle you look.
+<ce>Invisible fingers run through the dust
+<ce>and over your face. From the corner of
+<ce>your eye, you can see demons grinning
+<ce>at you, but they vanish when you turn to
+<ce>look at them. As dark a day as it is
+<ce>outside, you want to do your business
+<ce>here and leave...
+
+----RAIN
+Message: 1112
+<ce>You shake the cool rain from your
+<ce>shoulders, conscious of the pooling
+<ce>water at your feet. As your eyes
+<ce>slowly adjust to the dim interior,
+<ce>you can make out arcane implements
+<ce>and mystical apparati. You think you
+<ce>feel a strange tingling on your skin.
+<--->
+<ce>As thick as the stone walls of the
+<ce>Mages guild are, you can hear
+<ce>virtually every splatter of the rain
+<ce>outside. You are almost afraid to
+<ce>talk, for every echo of each footstep
+<ce>causes great clouds of dust to billow.
+<ce>And there are books and apparati in
+<ce>this room, you suspect, that should
+<ce>never be disturbed.
+<--->
+<ce>An open window in the Mages Guild lets
+<ce>in the smell of the  storm, which
+<ce>mingles with the chemical stench that
+<ce>bubbles from an open cauldron. The
+<ce>chamber is filled with arcane objects,
+<ce>jugs, cloaks, scrolls, amulets, tomes,
+<ce>brooches, potions, robes, figurines,
+<ce>talismans.
+
+----SNOW
+Message: 1113
+<ce>Chill winds swirl about you as you
+<ce>enter the Mages Guild and shut the door.
+<ce>Outside the winter's cold sets in without
+<ce>any signs of stopping. You stamp your
+<ce>feet and crowd close to a brazier that
+<ce>glows hot with fiery coals. As the warmth
+<ce>slowly seeps in, you notice arcane
+<ce>implements and mystical apparati. You
+<ce>think you feel a strange tingling over
+<ce>your skin.
+<--->
+<ce>The Mages Guild is so omnipresent that
+<ce>all the arcane relics within seem to
+<ce>be covered in a thin shroud. It is an
+<ce>almost soundless chamber, with only an
+<ce>occasional sigh from the pot of
+<ce>boiling liquid on the fire. Slowly
+<ce>warmth creeps back into your chilled
+<ce>body.
+<--->
+<ce>You enter the dim Mages Guild, warmed by
+<ce>a spell that brings life back into your
+<ce>chilled body almost immediately. Books,
+<ce>charms, scrolls, and other relics, older
+<ce>than human memory, are kept in pristine
+<ce>condition here by the same mystic energy.
+
+
+--SPRING (1120)
+----SUNNY
+Message: 1120
+<ce>A cool breeze follows you into the Mages
+<ce>Guild, drying the slight sheen of sweat
+<ce>from your brow. The interior smells of
+<ce>spices and chemicals. As your eyes
+<ce>adjust to the dim light you can make out
+<ce>arcane implements and mystical apparati.
+<ce>You think you feel a strange tingling on
+<ce>your skin.
+<--->
+<ce>You enter the Mages Guild, the smell of
+<ce>sulfur and rotting parchment replacing
+<ce>that of new cacti blossoms. Scrolls and
+<ce>potions, relics and artifacts vie for
+<ce>space on the bookshelves. You can hear
+<ce>small living things scuttling behind the
+<ce>volumes of alien encyclopedia.
+<--->
+<ce>The mystical energy in the Mages Guild
+<ce>runs through you like a charge of
+<ce>lightning. Outside nature is in her full
+<ce>vernal glory on this sunny day, but she
+<ce>has little power in here. From the stone
+<ce>walls to the scrolls and potions, the
+<ce>most mundane parts of this chamber seem
+<ce>like phantasmagoria.
+<--->
+<ce>As you enter the Mage's Guild the nearest
+<ce>enchanter yells at you, urging you to
+<ce>shake off the sand from the outside that
+<ce>got stuck on your clothes and boots - 
+<ce>"Can't have you ruining all the fragile
+<ce>texts we guard here, can we?"
+
+----CLOUDY/OVERCAST/FOG
+Message: 1121
+<ce>Although the sky is gray the weather
+<ce>itself is quite hot. You can smell
+<ce>dry heat in the air, but that quickly
+<ce>changes as the door shuts behind you.
+<ce>The Mages Guild smells like old
+<ce>spices and chemicals. You can make
+<ce>out dozens of arcane implements and
+<ce>mystical apparati. You think you feel
+<ce>a strange tingling on your skin.
+<--->
+<ce>You enter the Mages Guild from the
+<ce>gloomy spring day and are struck by
+<ce>the clutter. You know that wizardry
+<ce>is a mental art, and it is hard to
+<ce>believe the sorcerers behind this
+<ce>jumble of items and apparati are not
+<ce>either madmen or fools. You can
+<ce>definitely hear small living things
+<ce>move about in the piles.
+<--->
+<ce>The Mages Guild is not a place where
+<ce>the normal gods of Nature hold reign,
+<ce>but on such a bleak spring day, it
+<ce>does not look like they have power
+<ce>anywhere. Somehow the chamber is
+<ce>simultaneously too hot and too cold,
+<ce>wet with humidity in one spot, drier
+<ce>than the Khajiit desert in another.
+<ce>Even the mystical items on the shelves
+<ce>are juxtaposed between extremes,
+<ce>ancient scrolls next to modern
+<ce>measuring devices, this one filthy
+<ce>with neglect, that polished with care.
+
+----RAIN
+Message: 1122
+<ce>You shake the hot rain from your
+<ce>shoulders, conscious of the pooling
+<ce>water at your feet. As your eyes
+<ce>slowly adjust to the dim interior,
+<ce>you can make out arcane implements
+<ce>and mystical apparati. You think you
+<ce>feel a strange tingling on your skin.
+<--->
+<ce>As thick as the stone walls of the
+<ce>Mages guild are, you can hear
+<ce>virtually every splatter of the hot
+<ce>spring rain outside. You are almost
+<ce>afraid to talk, for every echo of
+<ce>each footstep causes great clouds
+<ce>of dust to billow. And there are
+<ce>books and apparati in this room,
+<ce>you suspect, that should never be
+<ce>disturbed.
+<--->
+<ce>An open window in the Mages Guild lets
+<ce>in the smell of the spring storm, which
+<ce>mingles with the chemical stench that
+<ce>bubbles from an open cauldron. The
+<ce>chamber is filled with arcane objects,
+<ce>jugs, cloaks, scrolls, amulets, tomes,
+<ce>brooches, potions, robes, figurines,
+<ce>talismans.
+
+
+
+--SUMMER (1130)
+----SUNNY
+Message: 1130
+<ce>You wipe the sweat off your brow as you
+<ce>enter the Mages Guild. The cool shade
+<ce>of the interior is a welcomed sight
+<ce>after standing under the harsh summer
+<ce>sun. Around you are arcane implements
+<ce>and mystical apparati. You feel a slight
+<ce>tingling on your skin.
+<--->
+<ce>For a moment after leaving the bright
+<ce>summer sunshine, your eyes register only
+<ce>darkness in the gloomy Mages Guild. When
+<ce>they adjust, you can understand very
+<ce>little of what you see. Tomes of
+<ce>antiquated wizardry and obscure objects
+<ce>crowd the dusty shelves.
+<--->
+<ce>The door to the Mages Guild opens with a
+<ce>puff of dust that sticks to the sweat on
+<ce>your sunburned face. The smells of
+<ce>sulfurous potions burning and ancient
+<ce>scrolls of moldering parchment sting your
+<ce>nose. At least it is cool in here, you
+<ce>say to yourself.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1131
+<ce>You enter the Mages Guild, its gloomy
+<ce>interior not much different from the
+<ce>iron-gray, overcast sky outside. At
+<ce>least, you silently think, the sun
+<ce>isn't out. Around you are arcane
+<ce>implements and mystical apparati. You
+<ce>feel a slight tingling on your skin.
+<--->
+<ce>All the humidity and heat of the day
+<ce>are intensified in the Mages Guild.
+<ce>To add to the infernal atmosphere,
+<ce>tendrils of soot-filled smoke and the
+<ce>whimpers from some doomed experiment
+<ce>slip through the cracks of locked
+<ce>doors. Each book on the shelf looks
+<ce>like it is watching you.
+<--->
+<ce>You enter the Mages Guild, an
+<ce>amalgamation of primordial relics,
+<ce>moldering scrolls, dripping unguents,
+<ce>and smoking fluids. An occasional
+<ce>groan or minor explosion can be heard
+<ce>coming from the laboratories. At least
+<ce>it's not as hot and humid as outside.
+
+----RAIN
+Message: 1132
+<ce>You shake the hot rain from your shoulders
+<ce>as you enter the Mages Guild. The dry
+<ce>interior is a welcomed sight after
+<ce>standing in the downpour outside.
+<ce>Around you are arcane implements and
+<ce>mystical apparati. You feel a slight
+<ce>tingling on your skin.
+<--->
+<ce>The sound of the brief summer rain is
+<ce>muffled by the thick walls and
+<ce>thicker velvet curtains. This is a
+<ce>place where the outside world is a
+<ce>distraction to be avoided. The smells,
+<ce>sights, and sounds here are unique to
+<ce>the field of mystical experimentation.
+<--->
+<ce>You enter the Mages Guild, avoiding
+<ce>the streams of water that run
+<ce>unabsorbed by the parched desert sands.
+<ce>The room is damp, but the thick stone
+<ce>walls keep it cool even in the dog
+<ce>days of summer. Strange devices and
+<ce>venerable tomes crowd across the dust
+<ce>and soot streaked shelves.
+
+
+--FALL (1140)
+----SUNNY
+Message: 1140
+<ce>Behind you the fall sun sheds heat
+<ce>upon the land, holding back the chill
+<ce>fingers of winter yet another day.
+<ce>Around you are arcane implements and
+<ce>mystical apparati. You feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>While the local farmers have been
+<ce>gathering their crops, it would
+<ce>appear the mages have been collecting
+<ce>a harvest of their own. The Mages
+<ce>Guild is crowded with scrolls, relics,
+<ce>charms, and artifacts. Clearly some
+<ce>extensive trading between one town's
+<ce>guild to another's has been going on
+<ce>this fall.
+<--->
+<ce>You enter the Mages Guild, a world
+<ce>where nature holds little power.
+<ce>Outside the sun beats the land with
+<ce>heat, searing it clean. In here
+<ce>however, strange flora lives year
+<ce>round, competing for space next to
+<ce>the scrolls, potions, and other
+<ce>mystic apparati that crowds the
+<ce>Guild's shelves.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1141
+<ce>You enter the Mage's Guild, its
+<ce>gloomy interior not much different
+<ce>from the chilly, overcast sky
+<ce>outside. At least, you silently
+<ce>thank, the interior is warm. You
+<ce>rub your hands together to bring
+<ce>back some feeling. Around you are
+<ce>arcane implements and mystical
+<ce>apparati. You feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>On a dark cool day like today,
+<ce>those who devote their lives to
+<ce>the mystical sciences are at
+<ce>their busiest. Outside, people
+<ce>look into the sky and view the
+<ce>coming winter with dread. All in
+<ce>the Mages Guild are as ctive with
+<ce>mystic energy as they might be on
+<ce>any day, including the books and
+<ce>relics that line the shelves.
+<--->
+<ce>You enter the Mages Guild, going from
+<ce>a cool gloomy outside to a cool
+<ce>gloomy inside. Because of the shadows,
+<ce>you cannot see all that the chamber
+<ce>contains. You suspect that even by the
+<ce>light of a bright day, the room has
+<ce>its secrets. Potions, relics, and books
+<ce>line the bookshelves shrouded by a fine
+<ce>dust.
+
+----RAIN
+Message: 1142
+<ce>You shake the hot rain from your
+<ce>shoulders as you enter the Mages
+<ce>Guild, stamping your feet to bring
+<ce>back some warmth. The dry interior
+<ce>is a welcomed sight after standing
+<ce>in the uncommon downpour outside.
+<ce>Around you are arcane implements
+<ce>and mystical apparati. You feel a
+<ce>slight tingling on your skin.
+<--->
+<ce>The Mages Guild is dry, but no
+<ce>more welcome that the hot autumn
+<ce>tempest outside. Strange and
+<ce>exotic potions, ancient scrolls,
+<ce>and arcane relics look down at
+<ce>you from the shelves as if they
+<ce>are predatory birds, watching for
+<ce>you to make a mistake. The dark
+<ce>energy in the room goes through
+<ce>you like a charge.
+<--->
+<ce>All along the walls of the Mages
+<ce>Guild, blackened with soot and
+<ce>neglect, are shelves of books and
+<ce>arcane apparati so cloaked in
+<ce>dust to be practically
+<ce>indistinguishable one from the
+<ce>other. You can hear the sound of
+<ce>the desert winds outside,
+<ce>uncomfortably loud in the normally
+<ce>still little room.
+
+
+
+-COLD (1200)***
+--WINTER (1210)*
+----SUNNY*
+Message: 1210
+<ce>The sun outside has done little to warm
+<ce>your bones, which are now almost frozen.
+<ce>You enter the Mages Guild, stamping your
+<ce>feet and crowding close to a brazier
+<ce>that glows hot with fiery coals. As the
+<ce>warmth slowly seeps in, you notice
+<ce>arcane implements and mystical apparati.
+<ce>You think you feel a strange tingling on
+<ce>your skin.
+<--->
+<ce>Although the sun was out, you felt a
+<ce>winter's chill outside and now,
+<ce>within the Mages Guild, you feel the
+<ce>cold more intensely. Dust lies on
+<ce>the shelves of books, potions, and
+<ce>relics like an early frost. The stone
+<ce>walls of the chamber glisten with ice.
+<--->
+<ce>The melancholy Mages Guild is slightly
+<ce>warmer than the winter day outside but,
+<ce>without the sunlight, the effect is much
+<ce>the same. Many books and arcane
+<ce>instruments lie scattered about, but
+<ce>they fail to lend any vitality to the
+<ce>scene. It is a place of mystical study,
+<ce>not built for human comfort.
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1211
+<ce>The gray sky has done little to warm
+<ce>your bones, which by now are almost
+<ce>frozen. You enter the Mages Guild,
+<ce>stamping your feet to increase the
+<ce>circulation and crowd close to a
+<ce>brazier that glows hot with fiery coals.
+<ce>As the warmth slowly seeps in, you
+<ce>notice arcane implements and mystical
+<ce>apparati. You think you feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>It is a perfect day for those who
+<ce>practice the shadowy arts: the Mages
+<ce>Guild comes most alive on cold, dark
+<ce>winter days. Cauldrons bubble on the
+<ce>fireplace, filling the room with
+<ce>translucent smoke that smells of animal
+<ce>fat and sulfur. The shelves are
+<ce>cluttered with mystical books and
+<ce>artifacts...
+<--->
+<ce>You know that you can only see half of
+<ce>what is in the Mages Guild. The titles
+<ce>of the books on the shelves seem to
+<ce>change depending on the angle you look.
+<ce>Invisible fingers run through the dust
+<ce>and over your face. From the corner of
+<ce>your eye, you can see demons grinning
+<ce>at you, but they vanish when you turn to
+<ce>look at them. As dark a winter day as it
+<ce>is outside, you want to do your business
+<ce>here and leave...
+
+----SNOW*
+Message: 1213
+<ce>Chill winds swirl about you as you
+<ce>enter the Mages Guild and shut the door.
+<ce>Outside the winter snow falls without
+<ce>any signs of stopping. You stamp your
+<ce>feet and crowd close to a brazier that
+<ce>glows hot with fiery coals. As the warmth
+<ce>slowly seeps in, you notice arcane
+<ce>implements and mystical apparati. You
+<ce>think you feel a strange tingling over
+<ce>your skin.
+<--->
+<ce>The Mages Guild is so omnipresent
+<ce>that all the arcane relics within
+<ce>seem to be covered in a thin
+<ce>shroud. It is an almost soundless
+<ce>chamber, with only an occasional
+<ce>sigh from the pot of boiling
+<ce>liquid on the fire. Slowly warmth
+<ce>creeps back into your chilled body.
+<--->
+<ce>You enter the dim Mages Guild, warmed by
+<ce>a spell that brings life back into your
+<ce>frozen body almost immediately. Books,
+<ce>charms, scrolls, and other relics, older
+<ce>than human memory, are kept in pristine
+<ce>condition here by the same mystic energy.
+
+
+
+--SPRING (1220)*
+----SUNNY*
+Message: 1220
+<ce>A chill breeze follows you into the Mages
+<ce>Guild, drying the slight sheen of sweat
+<ce>from your brow. The interior smells of
+<ce>spices and chemicals. As your eyes
+<ce>adjust to the dim light you can make out
+<ce>arcane implements and mystical apparati.
+<ce>You think you feel a strange tingling on
+<ce>your skin.
+<--->
+<ce>You enter the Mages Guild, the smell of
+<ce>sulfur and rotting parchment replacing
+<ce>that of new blossoms. Scrolls and
+<ce>potions, relics and artifacts vie for
+<ce>space on the bookshelves. You can hear
+<ce>small living things scuttling behind the
+<ce>volumes of alien encyclopedia.
+<--->
+<ce>The mystical energy in the Mages Guild
+<ce>runs through you like a charge of
+<ce>lightning. Outside nature is in her full
+<ce>arctic glory, but she has little power
+<ce>in here. From the stone walls to the
+<ce>scrolls and potions, the most mundane
+<ce>parts of this chamber seem like
+<ce>phantasmagoria.
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1221
+<ce>Although the sky is gray the weather
+<ce>itself is quite cold. You can smell
+<ce>dry chill in the air, but that quickly
+<ce>changes as the door shuts behind you.
+<ce>The Mages Guild smells like old
+<ce>spices and chemicals. You can make
+<ce>out dozens of arcane implements and
+<ce>mystical apparati. You think you feel
+<ce>a strange tingling on your skin.
+<--->
+<ce>You enter the Mages Guild from the
+<ce>gloomy spring day and are struck by
+<ce>the clutter. You know that wizardry
+<ce>is a mental art, and it is hard to
+<ce>believe the sorcerers behind this
+<ce>jumble of items and apparati are not
+<ce>either madmen or fools. You can
+<ce>definitely hear small living things
+<ce>move about in the piles.
+<--->
+<ce>The Mages Guild is not a place where
+<ce>the normal gods of Nature hold reign,
+<ce>but on such a bleak spring day, it
+<ce>does not look like they have power
+<ce>anywhere. Somehow the chamber is
+<ce>simultaneously too hot and too cold,
+<ce>wet with humidity in one spot, drier
+<ce>than the Khajiit desert in another.
+<ce>Even the mystical items on the shelves
+<ce>are juxtaposed between extremes,
+<ce>ancient scrolls next to modern
+<ce>measuring devices, this one filthy
+<ce>with neglect, that polished with care.
+
+----RAIN*
+Message: 1222
+<ce>You shake the cold rain from your
+<ce>shoulders, conscious of the pooling
+<ce>water at your feet. As your eyes
+<ce>slowly adjust to the dim interior,
+<ce>you can make out arcane implements
+<ce>and mystical apparati. You think you
+<ce>feel a strange tingling on your skin.
+<--->
+<ce>As thick as the stone walls of the
+<ce>Mages guild are, you can hear
+<ce>virtually every splatter of the cold
+<ce>rain outside. You are almost afraid to
+<ce>talk, for every echo of each footstep
+<ce>causes great clouds of dust to billow.
+<ce>And there are books and apparati in
+<ce>this room, you suspect, that should
+<ce>never be disturbed.
+<--->
+<ce>An open window in the Mages Guild lets
+<ce>in the smell of the spring storm, which
+<ce>mingles with the chemical stench that
+<ce>bubbles from an open cauldron. The
+<ce>chamber is filled with arcane objects,
+<ce>jugs, cloaks, scrolls, amulets, tomes,
+<ce>brooches, potions, robes, figurines,
+<ce>talismans.
+
+
+
+--SUMMER (1230)*
+----SUNNY*
+Message: 1230
+<ce>You enter the Mages Guild, happy to be
+<ce>out of the chill. The interior is a
+<ce>welcomed sight after standing in the
+<ce>harsh summer air. Around you are arcane
+<ce>implements and mystical apparati. You
+<ce>can feel a slight tingling on your skin.
+<--->
+<ce>For a moment after leaving the bright
+<ce>summer sunshine, your eyes register only
+<ce>darkness in the gloomy Mages Guild. When
+<ce>they adjust, you can understand very
+<ce>little of what you see. Tomes of
+<ce>antiquated wizardry and obscure objects
+<ce>crowd the dusty shelves.
+<--->
+<ce>The door to the Mages Guild opens with a
+<ce>puff of dust that sticks to the sweat on
+<ce>your sunburned face. The smells of
+<ce>sulfurous potions burning and ancient
+<ce>scrolls of moldering parchment sting your
+<ce>nose. At least it is warm in here, you
+<ce>say to yourself.
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1231
+<ce>You enter the Mages Guild, its gloomy
+<ce>interior not much different from the
+<ce>iron-gray, overcast sky outside. At
+<ce>least, you silently think, the snow
+<ce>isn't falling. Around you are arcane
+<ce>implements and mystical apparati. You
+<ce>feel a slight tingling on your skin.
+<--->
+<ce>All the cold and chill of the day are
+<ce>intensified in the Mages Guild. To
+<ce>add to the frigid atmosphere, tendrils
+<ce>of soot-filled smoke and the whimpers
+<ce>from some doomed experiment slip
+<ce>through the cracks of locked doors.
+<ce>Each book on the shelf looks like it
+<ce>is watching you.
+<--->
+<ce>You enter the Mages Guild, an
+<ce>amalgamation of primordial relics,
+<ce>moldering scrolls, dripping unguents,
+<ce>and smoking fluids. An occasional
+<ce>groan or minor explosion can be heard
+<ce>coming from the laboratories. At least
+<ce>it's not as cold and windy as outside.
+
+----RAIN*
+Message: 1232
+<ce>You shake the cold rain from your shoulders
+<ce>as you enter the Mages Guild. The dry
+<ce>interior is a welcomed sight after standing
+<ce>in the downpour outside. Around you are
+<ce>arcane implements and mystical apparati.
+<ce>You feel a slight tingling on your skin.
+<--->
+<ce>The sound of the brief summer rain is
+<ce>muffled by the thick walls and
+<ce>thicker velvet curtains. This is a
+<ce>place where the outside world is a
+<ce>distraction to be avoided. The smells,
+<ce>sights, and sounds here are unique to
+<ce>the field of mystical experimentation.
+<--->
+<ce>You enter the Mages Guild, avoiding the
+<ce>streams of water that run melted by the
+<ce>warm Guild air. The room is damp, but the
+<ce>thick stone walls keep it cool even in
+<ce>the dog days of summer. Strange devices
+<ce>and venerable tomes crowd across the
+<ce>dust and soot streaked shelves.
+
+
+
+--FALL (1240)*
+----SUNNY*
+Message: 1240
+<ce>Behind you the fall sun sheds little
+<ce>heat upon the land, welcoming the
+<ce>icy fingers of winter yet another
+<ce>day. Around you are arcane implements
+<ce>and mystical apparati. You feel a
+<ce>strange tingling on your skin.
+<--->
+<ce>While the local farmers have been
+<ce>gathering their crops, it would
+<ce>appear the mages have been collecting
+<ce>a harvest of their own. The Mages
+<ce>Guild is crowded with scrolls, relics,
+<ce>charms, and artifacts. Clearly some
+<ce>extensive trading between one town's
+<ce>guild to another's has been going on
+<ce>this fall.
+<--->
+<ce>You enter the Mages Guild, a world
+<ce>where nature holds little power.
+<ce>Outside the sun fights a losing battle
+<ce>against the cold. In here however,
+<ce>strange flora lives year round,
+<ce>competing for space next to the
+<ce>scrolls, potions, and other mystic
+<ce>apparati that crowds the Guild's shelves.
+
+----CLOUDY/OVERCAST/FOG*
+Message: 1241
+<ce>You enter the Mage's Guild, its
+<ce>gloomy interior not much different
+<ce>from the cold, overcast sky
+<ce>outside. At least, you silently
+<ce>thank, the interior is warm. You
+<ce>rub your hands together to bring
+<ce>back some feeling. Around you are
+<ce>arcane implements and mystical
+<ce>apparati. You feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>On a dark cool day like today,
+<ce>those who devote their lives to
+<ce>the mystical sciences are at
+<ce>their busiest. Outside, people
+<ce>look into the sky and view the
+<ce>coming winter with dread. All in
+<ce>the Mages Guild are as active with
+<ce>mystic energy as they might be on
+<ce>any day, including the books and
+<ce>relics that line the shelves.
+<--->
+<ce>You enter the Mages Guild, going from
+<ce>a cool gloomy outside to a cool
+<ce>gloomy inside. Because of the shadows,
+<ce>you cannot see all that the chamber
+<ce>contains. You suspect that even by the
+<ce>light of a bright day, the room has
+<ce>its secrets. Potions, relics, and books
+<ce>line the bookshelves shrouded by a fine
+<ce>dust.
+
+----RAIN*
+Message: 1242
+<ce>You shake the cold rain from your
+<ce>shoulders as you enter the Mages
+<ce>Guild, stamping your feet to bring
+<ce>back some warmth. The dry interior
+<ce>is a welcomed sight after standing
+<ce>in the icy downpour outside.
+<ce>Around you are arcane implements
+<ce>and mystical apparati. You feel a
+<ce>slight tingling on your skin.
+<--->
+<ce>The Mages Guild is dry, but no
+<ce>more welcome that the cold autumn
+<ce>tempest outside. Strange and
+<ce>exotic potions, ancient scrolls,
+<ce>and arcane relics look down at
+<ce>you from the shelves as if they
+<ce>are predatory birds, watching for
+<ce>you to make a mistake. The dark
+<ce>energy in the room goes through
+<ce>you like a charge.
+<--->
+<ce>All along the walls of the Mages
+<ce>Guild, blackened with soot and
+<ce>neglect, are shelves of books and
+<ce>arcane apparati so cloaked in
+<ce>dust to be practically
+<ce>indistinguishable one from the
+<ce>other. You can hear the sound of
+<ce>the mountain winds outside,
+<ce>uncomfortably loud in the normally
+<ce>still little room.
+
+
+
+
+-SWAMP (1300)
+--WINTER (1310)
+----SUNNY
+Message: 1310
+<ce>A cool breeze follows you into the Mages
+<ce>Guild, drying the slight sheen of sweat
+<ce>from your brow. The interior smells of
+<ce>spices and chemicals. As your eyes
+<ce>adjust to the dim light you can make out
+<ce>arcane implements and mystical apparati.
+<ce>You think you feel a strange tingling on
+<ce>your skin.
+<--->
+<ce>As sunny as it was, you felt a cool
+<ce>chill outside and now, within the Mages
+<ce>Guild, you feel the cold more intensely.
+<ce>Dust lies on the shelves of books,
+<ce>potions, and relics like an early frost.
+<--->
+<ce>The melancholy Mages Guild is slightly
+<ce>warmer than the day outside but,
+<ce>without the sunlight, the effect is much
+<ce>the same. Many books and arcane
+<ce>instruments lie scattered about, but
+<ce>they fail to lend any vitality to the
+<ce>scene. It is a place of mystical study,
+<ce>not built for human comfort.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1311
+<ce>The gray sky has done little to warm
+<ce>your bones, which by now are cold
+<ce>indeed. You enter the Mages Guild,
+<ce>stamping your feet to increase the
+<ce>circulation and crowd close to a
+<ce>brazier that glows hot with fiery coals.
+<ce>As the warmth slowly seeps in, you
+<ce>notice arcane implements and mystical
+<ce>apparati. You think you feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>It is a perfect day for those who
+<ce>practice the shadowy arts: the Mages
+<ce>Guild comes most alive on chill, dark
+<ce>days. Cauldrons bubble on the
+<ce>fireplace, filling the room with
+<ce>translucent smoke that smells of animal
+<ce>fat and sulfur. The shelves are
+<ce>cluttered with mystical books and
+<ce>artifacts...
+<--->
+<ce>You know that you can only see half of
+<ce>what is in the Mages Guild. The titles
+<ce>of the books on the shelves seem to
+<ce>change depending on the angle you look.
+<ce>Invisible fingers run through the dust
+<ce>and over your face. From the corner of
+<ce>your eye, you can see demons grinning
+<ce>at you, but they vanish when you turn to
+<ce>look at them. As dark a day as it is
+<ce>outside, you want to do your business
+<ce>here and leave...
+
+----RAIN
+Message: 1312
+<ce>You shake the cold rain from your
+<ce>shoulders, conscious of the pooling
+<ce>water at your feet. As your eyes
+<ce>slowly adjust to the dim interior,
+<ce>you can make out arcane implements
+<ce>and mystical apparati. You think you
+<ce>feel a strange tingling on your skin.
+<--->
+<ce>As thick as the stone walls of the
+<ce>Mages guild are, you can hear
+<ce>virtually every splatter of the rain
+<ce>outside. You are almost afraid to
+<ce>talk, for every echo of each footstep
+<ce>causes great clouds of dust to billow.
+<ce>And there are books and apparati in
+<ce>this room, you suspect, that should
+<ce>never be disturbed.
+<--->
+<ce>An open window in the Mages Guild lets
+<ce>in the smell of the storm, which
+<ce>mingles with the chemical stench that
+<ce>bubbles from an open cauldron. The
+<ce>chamber is filled with arcane objects,
+<ce>jugs, cloaks, scrolls, amulets, tomes,
+<ce>brooches, potions, robes, figurines,
+<ce>talismans.
+
+----SNOW
+Message: 1313
+<ce>Chill winds swirl about you as you
+<ce>enter the Mages Guild and shut the door.
+<ce>Outside the winter's cold sets in without
+<ce>any signs of stopping. You stamp your
+<ce>feet and crowd close to a brazier that
+<ce>glows hot with fiery coals. As the warmth
+<ce>slowly seeps in, you notice arcane
+<ce>implements and mystical apparati. You
+<ce>think you feel a strange tingling over
+<ce>your skin.
+<--->
+<ce>The Mages Guild is so omnipresent that
+<ce>all the arcane relics within seem to
+<ce>be covered in a thin shroud. It is an
+<ce>almost soundless chamber, with only an
+<ce>occasional sigh from the pot of
+<ce>boiling liquid on the fire. Slowly
+<ce>warmth creeps back into your chilled
+<ce>body.
+<--->
+<ce>You enter the dim Mages Guild, warmed by
+<ce>a spell that brings life back into your
+<ce>chilled body almost immediately. Books,
+<ce>charms, scrolls, and other relics, older
+<ce>than human memory, are kept in pristine
+<ce>condition here by the same mystic energy.
+
+
+--SPRING (1320)
+----SUNNY
+Message: 1320
+<ce>A cool breeze follows you into the Mages
+<ce>Guild, drying the slight sheen of sweat
+<ce>from your brow. The interior smells of
+<ce>spices and chemicals. As your eyes
+<ce>adjust to the dim light you can make out
+<ce>arcane implements and mystical apparati.
+<ce>You think you feel a strange tingling on
+<ce>your skin.
+<--->
+<ce>You enter the Mages Guild, the smell of
+<ce>sulfur and rotting parchment replacing
+<ce>that of the %ct outside. Scrolls and
+<ce>potions, relics and artifacts vie for
+<ce>space on the bookshelves. You can hear
+<ce>small living things scuttling behind the
+<ce>volumes of alien encyclopedia.
+<--->
+<ce>The mystical energy in the Mages Guild
+<ce>runs through you like a charge of
+<ce>lightning. Outside nature is in her full
+<ce>vernal glory on this sunny day, but she
+<ce>has little power in here. From the stone
+<ce>walls to the scrolls and potions, the
+<ce>most mundane parts of this chamber seem
+<ce>like phantasmagoria.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1321
+<ce>Although the sky is gray the weather
+<ce>itself is quite hot. You can smell
+<ce>heat in the air, but that quickly
+<ce>changes as the door shuts behind you.
+<ce>The Mages Guild smells like old
+<ce>spices and chemicals. You can make
+<ce>out dozens of arcane implements and
+<ce>mystical apparati. You think you feel
+<ce>a strange tingling on your skin.
+<--->
+<ce>You enter the Mages Guild from the
+<ce>gloomy spring day and are struck by
+<ce>the clutter. You know that wizardry
+<ce>is a mental art, and it is hard to
+<ce>believe the sorcerers behind this
+<ce>jumble of items and apparati are not
+<ce>either madmen or fools. You can
+<ce>definitely hear small living things
+<ce>move about in the piles.
+<--->
+<ce>The Mages Guild is not a place where
+<ce>the normal gods of Nature hold reign,
+<ce>but on such a bleak spring day, it
+<ce>does not look like they have power
+<ce>anywhere. Somehow the chamber is
+<ce>simultaneously too hot and too cold,
+<ce>wet with humidity in one spot, drier
+<ce>than the Khajiit desert in another.
+<ce>Even the mystical items on the shelves
+<ce>are juxtaposed between extremes,
+<ce>ancient scrolls next to modern
+<ce>measuring devices, this one filthy
+<ce>with neglect, that polished with care.
+
+----RAIN
+Message: 1322
+<ce>You shake the warm rain from your
+<ce>shoulders, conscious of the pooling
+<ce>water at your feet. As your eyes
+<ce>slowly adjust to the dim interior,
+<ce>you can make out arcane implements
+<ce>and mystical apparati. You think you
+<ce>feel a strange tingling on your skin.
+<--->
+<ce>As thick as the stone walls of the
+<ce>Mages guild are, you can hear
+<ce>virtually every splatter of the warm
+<ce>spring rain outside. You are almost
+<ce>afraid to talk, for every echo of
+<ce>each footstep causes great clouds
+<ce>of dust to billow. And there are
+<ce>books and apparati in this room,
+<ce>you suspect, that should never be
+<ce>disturbed.
+<--->
+<ce>An open window in the Mages Guild lets
+<ce>in the smell of the spring storm, which
+<ce>mingles with the chemical stench that
+<ce>bubbles from an open cauldron. The
+<ce>chamber is filled with arcane objects,
+<ce>jugs, cloaks, scrolls, amulets, tomes,
+<ce>brooches, potions, robes, figurines,
+<ce>talismans.
+
+
+
+--SUMMER (1330)
+----SUNNY
+Message: 1330
+<ce>You wipe the sweat off your brow as you
+<ce>enter the Mages Guild. The cool shade
+<ce>of the interior is a welcomed sight
+<ce>after standing under the harsh summer
+<ce>sun. Around you are arcane implements
+<ce>and mystical apparati. You feel a slight
+<ce>tingling on your skin.
+<--->
+<ce>For a moment after leaving the bright
+<ce>summer sunshine, your eyes register only
+<ce>darkness in the gloomy Mages Guild. When
+<ce>they adjust, you can understand very
+<ce>little of what you see. Tomes of
+<ce>antiquated wizardry and obscure objects
+<ce>crowd the dusty shelves.
+<--->
+<ce>The door to the Mages Guild opens with a
+<ce>puff of dust that sticks to the sweat on
+<ce>your sunburned face. The smells of
+<ce>sulfurous potions burning and ancient
+<ce>scrolls of moldering parchment sting your
+<ce>nose. At least it is cool in here, you
+<ce>say to yourself.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1331
+<ce>You enter the Mages Guild, its gloomy
+<ce>interior not much different from the
+<ce>iron-gray, overcast sky outside. At
+<ce>least, you silently think, the sun
+<ce>isn't out. Around you are arcane
+<ce>implements and mystical apparati. You
+<ce>feel a slight tingling on your skin.
+<--->
+<ce>All the humidity and heat of the day
+<ce>are intensified in the Mages Guild.
+<ce>To add to the infernal atmosphere,
+<ce>tendrils of soot-filled smoke and the
+<ce>whimpers from some doomed experiment
+<ce>slip through the cracks of locked
+<ce>doors. Each book on the shelf looks
+<ce>like it is watching you.
+<--->
+<ce>You enter the Mages Guild, an
+<ce>amalgamation of primordial relics,
+<ce>moldering scrolls, dripping unguents,
+<ce>and smoking fluids. An occasional
+<ce>groan or minor explosion can be heard
+<ce>coming from the laboratories. At least
+<ce>it's not as hot and humid as outside.
+
+----RAIN
+Message: 1332
+<ce>You shake the hot rain from your shoulders
+<ce>as you enter the Mages Guild. The dry
+<ce>interior is a welcomed sight after
+<ce>standing in the downpour outside.
+<ce>Around you are arcane implements and
+<ce>mystical apparati. You feel a slight
+<ce>tingling on your skin.
+<--->
+<ce>The sound of the downpour is
+<ce>muffled by the thick walls and
+<ce>thicker velvet curtains. This is a
+<ce>place where the outside world is a
+<ce>distraction to be avoided. The smells,
+<ce>sights, and sounds here are unique to
+<ce>the field of mystical experimentation.
+<--->
+<ce>You enter the Mages Guild, avoiding
+<ce>the streams of water that create big
+<ce>patches of wet mud.
+<ce>The room is damp, but the thick stone
+<ce>walls keep it cool even in the dog
+<ce>days of summer. Strange devices and
+<ce>venerable tomes crowd across the dust
+<ce>and soot streaked shelves.
+
+
+--FALL (1340)
+----SUNNY
+Message: 1340
+<ce>Behind you the fall sun sheds heat
+<ce>upon the land, holding back the chill
+<ce>fingers of winter yet another day.
+<ce>Around you are arcane implements and
+<ce>mystical apparati. You feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>While the local farmers have been
+<ce>gathering their crops, it would
+<ce>appear the mages have been collecting
+<ce>a harvest of their own. The Mages
+<ce>Guild is crowded with scrolls, relics,
+<ce>charms, and artifacts. Clearly some
+<ce>extensive trading between one town's
+<ce>guild to another's has been going on
+<ce>this fall.
+<--->
+<ce>You enter the Mages Guild, a world
+<ce>where nature holds little power.
+<ce>Outside the sun beats the land with
+<ce>heat, searing it clean. In here
+<ce>however, strange flora lives year
+<ce>round, competing for space next to
+<ce>the scrolls, potions, and other
+<ce>mystic apparati that crowds the
+<ce>Guild's shelves.
+
+----CLOUDY/OVERCAST/FOG
+Message: 1341
+<ce>You enter the Mage's Guild, its
+<ce>gloomy interior not much different
+<ce>from the chilly, overcast sky
+<ce>outside. At least, you silently
+<ce>thank, the interior is warm. You
+<ce>rub your hands together to bring
+<ce>back some feeling. Around you are
+<ce>arcane implements and mystical
+<ce>apparati. You feel a strange
+<ce>tingling on your skin.
+<--->
+<ce>On a dark cool day like today,
+<ce>those who devote their lives to
+<ce>the mystical sciences are at
+<ce>their busiest. Outside, people
+<ce>look into the sky and view the
+<ce>coming winter with dread. All in
+<ce>the Mages Guild are as ctive with
+<ce>mystic energy as they might be on
+<ce>any day, including the books and
+<ce>relics that line the shelves.
+<--->
+<ce>You enter the Mages Guild, going from
+<ce>a cool gloomy outside to a cool
+<ce>gloomy inside. Because of the shadows,
+<ce>you cannot see all that the chamber
+<ce>contains. You suspect that even by the
+<ce>light of a bright day, the room has
+<ce>its secrets. Potions, relics, and books
+<ce>line the bookshelves shrouded by a fine
+<ce>dust.
+
+----RAIN
+Message: 1342
+<ce>You shake the hot rain from your
+<ce>shoulders as you enter the Mages
+<ce>Guild, stamping your feet to bring
+<ce>back some warmth. The dry interior
+<ce>is a welcomed sight after standing
+<ce>in the uncommon downpour outside.
+<ce>Around you are arcane implements
+<ce>and mystical apparati. You feel a
+<ce>slight tingling on your skin.
+<--->
+<ce>The Mages Guild is dry, but no
+<ce>more welcome that the hot autumn
+<ce>tempest outside. Strange and
+<ce>exotic potions, ancient scrolls,
+<ce>and arcane relics look down at
+<ce>you from the shelves as if they
+<ce>are predatory birds, watching for
+<ce>you to make a mistake. The dark
+<ce>energy in the room goes through
+<ce>you like a charge.
+<--->
+<ce>All along the walls of the Mages
+<ce>Guild, blackened with soot and
+<ce>neglect, are shelves of books and
+<ce>arcane apparati so cloaked in
+<ce>dust to be practically
+<ce>indistinguishable one from the
+<ce>other. You can hear the sound of
+<ce>the downpour outside,
+<ce>uncomfortably loud in the normally
+<ce>still little room.
+
+
+
+QBN:
+--Item _letter1_ letter used 1010
+--Item _letter2_ letter used 1011
+--Item _letter4_ letter used 1013
+--Item _letter6_ letter used 1020
+--Item _letter7_ letter used 1021
+--Item _letter8_ letter used 1022
+--Item _letter11_ letter used 1030
+--Item _letter12_ letter used 1031
+--Item _letter13_ letter used 1032
+--Item _letter16_ letter used 1040
+--Item _letter17_ letter used 1041
+--Item _letter18_ letter used 1042
+
+
+--	Quest start-up
+    pc at any magery do _inside_
+    --get item _letter1_
+    --get item _letter2_
+    --get item _letter4_
+    --get item _letter6_
+    --get item _letter7_
+    --get item _letter8_
+    --get item _letter11_
+    --get item _letter12_
+    --get item _letter13_
+    --get item _letter16_
+    --get item _letter17_
+    --get item _letter18_
+
+variable _inside_
+
+--Seasons Detect
+_winter_ task:
+    season winter
+
+_spring_ task:
+    season spring
+
+_summer_ task:
+    season summer
+
+_fall_ task:
+    season fall
+
+--Weather Detect
+_sunny_ task:
+    weather sunny
+
+_overcast_ task:
+    weather overcast
+
+_cloudy_ task:
+    weather cloudy
+
+_fog_ task:
+    weather fog
+
+_clouds_ task:
+    when _overcast_ or _cloudy_ or _fog_
+
+_rain_ task:
+    weather rain
+
+_thunder_ task:
+    weather thunder
+
+_snow_ task:
+    weather snow
+
+_rainy_ task:
+    when _rain_ or _thunder_
+
+--Climate Detect
+_desert_ task:
+    climate base desert
+
+_swamp_ task:
+    climate base swamp
+
+_mountain_ task:
+    climate base mountain
+
+_temperate_ task:
+    climate base temperate
+
+--Time of day Detect
+_day_ task:
+    daily from 06:00 to 18:00
+
+-TEMPERATE
+--WINTER TASKS
+---day/sunny
+_mgmidwsud_ task:
+    when _inside_ and _winter_ and _day_ and _temperate_ and _sunny_
+    say 1010
+
+---day/overcast
+_mgmidwod_ task:
+    when _inside_ and _winter_ and _day_ and _temperate_ and _clouds_
+    say 1011
+
+---day/snow
+_mgmidwsd_ task:
+    when _inside_ and _winter_ and _day_ and _temperate_ and _snow_
+    say 1013
+
+
+--SPRING TASKS
+---day/sunny
+_mgmidspsud_ task:
+    when _inside_ and _spring_ and _day_ and _temperate_ and _sunny_
+    say 1020
+
+---day/overcast
+_mgmidspod_ task:
+    when _inside_ and _spring_ and _day_ and _temperate_ and _clouds_
+    say 1021
+
+---day/rain
+_mgmidsprd_ task:
+    when _inside_ and _spring_ and _day_ and _temperate_ and _rainy_
+    say 1022
+
+
+--SUMMER TASKS
+---day/sunny
+_mgmidsusud_ task:
+    when _inside_ and _summer_ and _day_ and _temperate_ and _sunny_
+    say 1030
+
+---day/overcast
+_mgmidsuod_ task:
+    when _inside_ and _summer_ and _day_ and _temperate_ and _clouds_
+    say 1031
+
+---day/rain
+_mgmidsurd_ task:
+    when _inside_ and _summer_ and _day_ and _temperate_ and _rainy_
+    say 1032
+
+
+--FALL TASKS
+---day/sunny
+_mgmidfsud_ task:
+    when _inside_ and _fall_ and _day_ and _temperate_ and _sunny_
+    say 1040
+
+---day/overcast
+_mgmidfod_ task:
+    when _inside_ and _fall_ and _day_ and _temperate_ and _clouds_
+    say 1041
+
+---day/rain
+_mgmidfrd_ task:
+    when _inside_ and _fall_ and _day_ and _temperate_ and _rainy_
+    say 1042
+--=================
+
+-HOT
+--WINTER TASKS
+---day/sunny
+_mghotwsud_ task:
+    when _inside_ and _winter_ and _day_ and _desert_ and _sunny_
+    say 1110
+
+---day/overcast
+_mghotwod_ task:
+    when _inside_ and _winter_ and _day_ and _desert_ and _clouds_
+    say 1111
+
+---day/rain
+_mghotwrd_ task:
+    when _inside_ and _winter_ and _day_ and _desert_ and _rainy_
+    say 1112
+
+---day/snow
+_mghotwsd_ task:
+    when _inside_ and _winter_ and _day_ and _desert_ and _snow_
+    say 1113
+
+
+--SPRING TASKS
+---day/sunny
+_mghotspsud_ task:
+    when _inside_ and _spring_ and _day_ and _desert_ and _sunny_
+    say 1120
+
+---day/overcast
+_mghotspod_ task:
+    when _inside_ and _spring_ and _day_ and _desert_ and _clouds_
+    say 1121
+
+---day/rain
+_mghotsprd_ task:
+    when _inside_ and _spring_ and _day_ and _desert_ and _rainy_
+    say 1122
+
+
+--SUMMER TASKS
+---day/sunny
+_mghotsusud_ task:
+    when _inside_ and _summer_ and _day_ and _desert_ and _sunny_
+    say 1130
+
+---day/overcast
+_mghotsuod_ task:
+    when _inside_ and _summer_ and _day_ and _desert_ and _clouds_
+    say 1131
+
+---day/rain
+_mghotsurd_ task:
+    when _inside_ and _summer_ and _day_ and _desert_ and _rainy_
+    say 1132
+
+
+--FALL TASKS
+---day/sunny
+_mghotfsud_ task:
+    when _inside_ and _fall_ and _day_ and _desert_ and _sunny_
+    say 1140
+
+---day/overcast
+_mghotfod_ task:
+    when _inside_ and _fall_ and _day_ and _desert_ and _clouds_
+    say 1141
+
+---day/rain
+_mghotfrd_ task:
+    when _inside_ and _fall_ and _day_ and _desert_ and _rainy_
+    say 1142
+--=================
+
+-COLD
+--WINTER TASKS
+---day/sunny
+_mgcoldwsud_ task:
+    when _inside_ and _winter_ and _day_ and _mountain_ and _sunny_
+    say 1210
+
+---day/overcast
+_mgcoldwod_ task:
+    when _inside_ and _winter_ and _day_ and _mountain_ and _clouds_
+    say 1211
+
+---day/snow
+_mgcoldwsd_ task:
+    when _inside_ and _winter_ and _day_ and _mountain_ and _snow_
+    say 1213
+
+
+--SPRING TASKS
+---day/sunny
+_mgcoldspsud_ task:
+    when _inside_ and _spring_ and _day_ and _mountain_ and _sunny_
+    say 1220
+
+---day/overcast
+_mgcoldspod_ task:
+    when _inside_ and _spring_ and _day_ and _mountain_ and _clouds_
+    say 1221
+
+---day/rain
+_mgcoldsprd_ task:
+    when _inside_ and _spring_ and _day_ and _mountain_ and _rainy_
+    say 1222
+
+
+--SUMMER TASKS
+---day/sunny
+_mgcoldsusud_ task:
+    when _inside_ and _summer_ and _day_ and _mountain_ and _sunny_
+    say 1230
+
+---day/overcast
+_mgcoldsuod_ task:
+    when _inside_ and _summer_ and _day_ and _mountain_ and _clouds_
+    say 1231
+
+---day/rain
+_mgcoldsurd_ task:
+    when _inside_ and _summer_ and _day_ and _mountain_ and _rainy_
+    say 1232
+
+
+--FALL TASKS
+---day/sunny
+_mgcoldfsud_ task:
+    when _inside_ and _fall_ and _day_ and _mountain_ and _sunny_
+    say 1240
+
+---day/overcast
+_mgcoldfod_ task:
+    when _inside_ and _fall_ and _day_ and _mountain_ and _clouds_
+    say 1241
+
+---day/rain
+_mgcoldfrd_ task:
+    when _inside_ and _fall_ and _day_ and _mountain_ and _rainy_
+    say 1242
+--=================
+
+-SWAMP
+--WINTER TASKS
+---day/sunny
+_mgswadwsud_ task:
+    when _inside_ and _winter_ and _day_ and _swamp_ and _sunny_
+    say 1310
+
+---day/overcast
+_mgswawod_ task:
+    when _inside_ and _winter_ and _day_ and _swamp_ and _clouds_
+    say 1311
+
+---day/rain
+_mgswawrd_ task:
+    when _inside_ and _winter_ and _day_ and _swamp_ and _rainy_
+    say 1312
+
+---day/snow
+_mgswawsd_ task:
+    when _inside_ and _winter_ and _day_ and _swamp_ and _snow_
+    say 1313
+
+
+--SPRING TASKS
+---day/sunny
+_mgswaspsud_ task:
+    when _inside_ and _spring_ and _day_ and _swamp_ and _sunny_
+    say 1320
+
+---day/overcast
+_mgswaspod_ task:
+    when _inside_ and _spring_ and _day_ and _swamp_ and _clouds_
+    say 1321
+
+---day/rain
+_mgswasprd_ task:
+    when _inside_ and _spring_ and _day_ and _swamp_ and _rainy_
+    say 1322
+
+
+--SUMMER TASKS
+---day/sunny
+_mgswasusud_ task:
+    when _inside_ and _summer_ and _day_ and _swamp_ and _sunny_
+    say 1330
+
+---day/overcast
+_mgswasuod_ task:
+    when _inside_ and _summer_ and _day_ and _swamp_ and _clouds_
+    say 1331
+
+---day/rain
+_mgswasurd_ task:
+    when _inside_ and _summer_ and _day_ and _swamp_ and _rainy_
+    say 1332
+
+
+--FALL TASKS
+---day/sunny
+_mgswafsud_ task:
+    when _inside_ and _fall_ and _day_ and _swamp_ and _sunny_
+    say 1340
+
+---day/overcast
+_mgswafod_ task:
+    when _inside_ and _fall_ and _day_ and _swamp_ and _clouds_
+    say 1341
+
+---day/rain
+_mgswafrd_ task:
+    when _inside_ and _fall_ and _day_ and _swamp_ and _rainy_
+    say 1342    
+
+
+_resetmg_ task:
+    when not _inside_
+    start quest ARENAMSGMAIN
+    end quest
