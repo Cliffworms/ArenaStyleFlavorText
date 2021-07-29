@@ -5,7 +5,7 @@ Version: 1.1
 Date: 07/29/2021
 Category: Gameplay
 Authors: Kab the Bird Ranger & Cliffworms
-Requirements : Daggerfall Unity 0.11.5 or later (https://github.com/Interkarma/daggerfall-unity)
+Requirements : Daggerfall Unity 0.11.5 or later (https://github.com/Interkarma/daggerfall-unity/releases)
 
 1. Description
 2. Installation
@@ -40,7 +40,7 @@ that would be more than welcome!
 2. INSTALLATION
 ===============
 
-Make sure you are running Daggerfall Unity 0.11.5 or later. (https://github.com/Interkarma/daggerfall-unity)
+Make sure you are running Daggerfall Unity 0.11.5 or later. (https://github.com/Interkarma/daggerfall-unity/releases)
 
 Either install using Vortex Mod Manager or install manually as described below.
 
